@@ -1,0 +1,109 @@
+
+.wraperSection{
+    padding-bottom: 140px;
+    text-align: center;
+    padding-top:100px;
+    h5{
+        color: #fcce32;
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+    h4{
+        color:#ffffff;
+        font-size: 36px;
+        margin-top:24px;
+    }
+    .workListItem{
+        list-style-type: none;
+        padding:0;
+        margin:100px 0 0 0;
+        li{
+            list-style-type: none;
+            padding: 30px 25px;
+            margin: 0;
+            display: inline-block;
+            vertical-align: top;
+            width: 380px;
+            border: solid 2px #313131;
+            border-radius: 10px;
+            text-align: left;
+            .btnWrap{
+                display: inline-block;
+                vertical-align: top;
+                color: #fcce32;
+                background: #313131;
+                border-radius: 5px;
+                padding: 15px 30px;
+                font-size: 24px;
+            }
+            h4{
+                font-size: 24px;
+                margin-top: 35px;
+            }
+            p{
+                color: #bababa;
+                font-size: 16px;
+                line-height: 22px;
+                margin-top: 15px;
+            }
+        }
+        li + li{
+            margin-left:30px;
+        }
+    }
+}
+.step{
+    display: inline-block;
+    vertical-align: top;
+    margin-right:30px;
+    height:53px;
+    width:50px;
+}
+.step_1{
+    background: url('../../../public/assets/step1.png') no-repeat 0 0;
+    background-size: 100% 100%;
+}
+.step_2{
+    background: url('../../../public/assets/step2.png') no-repeat 0 0;
+    background-size: 100% 100%;
+}
+.step_3{
+    background: url('../../../public/assets/step3.png') no-repeat 0 0;
+    background-size: 100% 100%;
+}
+@media only screen and (min-width: 320px) and (max-width: 786px) {
+    .wraperSection{
+        padding-bottom: 20px;
+        padding-top:20px;
+        > h5, >h4{
+            display:none;
+        }
+        .workListItem{
+            margin-top:20px;
+            white-space: nowrap;
+            overflow-x: auto;
+            overflow-y: hidden;
+            -webkit-overflow-scrolling: touch;
+            box-sizing: border-box;
+            position: relative;
+            padding-left:20px;
+            padding-right:20px;
+            li{
+                white-space: normal;
+                padding:20px 10px;
+                width:280px;
+                .btnWrap{
+                    font-size:17px;
+                    padding:10px 15px;
+                }
+                h4{
+                    font-size: 16px;
+                    margin-top: 20px;
+                }
+                p{
+                    font-size:12px;
+                }
+            }
+        }
+    }
+}

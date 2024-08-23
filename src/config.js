@@ -1,0 +1,37 @@
+module.exports = {
+    clientSide: {
+      REACT_APP_API_DOMAIN_URL: 'https://www.parislondrestrain.fr',
+      REACT_APP_API_REVIEW_SAVE: '/admin/review/save',
+      REACT_APP_API_REPORTABOUSE_SAVE: '/admin/ReportAbuse/save',
+      REACT_APP_API_LEADFORM_SAVE: '/admin/web/leadform/save',
+      REACT_APP_API_CITY_LIST: '/admin/city/list?status=1',
+      REACT_APP_API_PLAN_TOP_PROVIDERS: '/admin/provider/list?status=1',
+      REACT_API_DOMAIN_LIST: '/admin/site/list/3',
+      REACT_API_PAGE_KEY_BASE: '/admin/admin/cacheByprojectId/3/key/',
+      REACT_API_PLAN_LATEST_OFFER: '/admin/broadband/list?status=1', 
+      REACT_API_PLAN_TOP_PROVIDERS: '/admin/provider/list?status=1',
+      REACT_API_BROADBAND_PROVIDER_BY_NAME: '/admin/broadband/listPrivder',
+      REACT_API_HIGHSPEEDPLAN_PATH: '/admin/broadband/filter/speed/value/500?status=1',
+      REACT_API_CHEAPESTPLAN_PATH: '/admin/broadband/filter/cost/value/600?status=1',
+      REACT_API_TOPENTPLAN_PATH: '/admin/broadband/filter/ott/value/2?status=1'
+    },
+    api: {
+      API_URL: process.env.API_DOMAIN_URL,
+      API_DOMAIN_LIST: process.env.API_DOMAIN_LIST,
+    },
+    API_PLAN_PATH: process.env.API_PLAN_URL_PATH,
+    API_HIGHSPEEDPLAN_PATH: process.env.API_HIGHSPEEDPLAN_URL_PATH,
+    API_CHEAPESTPLAN_PATH: process.env.API_CHEAPESTPLAN_URL_PATH,
+    API_TOPENTPLAN_PATH: process.env.API_TOPENTPLAN_URL_PATH,
+    API_SINGLE_PLAN_DETAILS: process.env.API_PLAN_SINGLE_URL_PATH,
+    API_SINGLE_PLAN_DETAILS_NEW: process.env.API_PLAN_SINGLE_URL_PATH_NEW,
+    API_PAGE_KEY_BASE: process.env.API_PATH_URL_KEY_BASE,
+    API_REVIEW_FIND_WITH_ID: process.env.API_REVIEW_FIND_WITH_ID,
+    API_PROVIDER_FIND: process.env.API_PROVIDER_FIND,
+    API_BROADBAND_PROVIDER_BY_NAME: process.env.API_BROADBAND_PROVIDER_BY_NAME,
+    API_SEARCH_PLAN_PATH: process.env.API_SEARCH_PLAN_PATH,
+    API_FINDBY_CITY_NAME: process.env.API_FINDBY_CITY_NAME,
+    API_PLAN_LATEST_OFFER: process.env.API_PLAN_LATEST_OFFER,
+    API_PLAN_TOP_PROVIDERS: process.env.API_PLAN_TOP_PROVIDERS,
+};
+  

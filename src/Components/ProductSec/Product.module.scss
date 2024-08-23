@@ -1,0 +1,697 @@
+.boxWrap {
+  border: solid 1px #e6e6e6;
+  outline: solid 2px transparent;
+  border-radius: 10px;
+  padding: 10px;
+  &:hover {
+    outline-color: #fcce33;
+    border-color: #fcce33;
+  }
+}
+
+.merchantImg {
+  object-fit: contain;
+  mix-blend-mode: darken;
+}
+.nodata.boxWrap {
+  line-height: 26px;
+  padding: 30px;
+}
+.boxWrap + .boxWrap {
+  margin-top: 20px;
+}
+
+.serviceTopWrap {
+  margin-bottom: 20px;
+  display: inline-block;
+  vertical-align: top;
+  width: 77%;
+  .serviceListItem {
+    display: inline-block;
+    vertical-align: top;
+    width: 90%;
+    li {
+      display: inline-block;
+      vertical-align: top;
+      .btn {
+        border-radius: 5px;
+        display: block;
+        background-color: #e3e9ff;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 8px 12px;
+        position: relative;
+        &:hover {
+          .topltip {
+            display: block;
+          }
+        }
+      }
+      .featuredDealBtn {
+        background-color: #e3e9ff;
+        color: #456dff;
+      }
+      .btn-black {
+        background-color: #191919;
+        color: #ffffff;
+      }
+      .btn-green {
+        background-color: #ccfcd9;
+        color: #3f7e42;
+      }
+      .btn-orange {
+        background-color: #ffebcc;
+        color: #d06e3e;
+      }
+      .btn-yellow {
+        background-color: #fcce33;
+        color: #000000;
+      }
+      .unavailableBtn {
+        background-color: #737373;
+        color: #ffffff;
+      }
+    }
+    li + li {
+      margin-left: 12px;
+    }
+  }
+  .iconItem {
+    float: right;
+    white-space: nowrap;
+    li {
+      display: inline-block;
+      vertical-align: top;
+      white-space: normal;
+      border: solid 1px #e6e6e6;
+      border-radius: 5px;
+      width: 25px;
+      height: 25px;
+    }
+    li + li {
+      margin-left: 10px;
+    }
+    .icon-wifi {
+      padding: 4px 0 0 4px;
+    }
+    .icon-phone {
+      padding: 4px 0 0 4px;
+    }
+  }
+}
+.topltip {
+  position: absolute;
+  left: -10px;
+  top: -150%;
+  background: rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  padding: 4px;
+  border-radius: 5px;
+  right: -10px;
+  text-align: center;
+  min-width: 120px;
+  display: none;
+  &:after {
+    content: '';
+    display: inline-block;
+    vertical-align: top;
+    border-left: solid 8px transparent;
+    border-right: solid 8px transparent;
+    border-top: solid 8px rgba(0, 0, 0, 0.7);
+    left: 50%;
+    position: absolute;
+    bottom: -8px;
+    margin-left: -50px;
+  }
+}
+.right {
+  display: inline-block;
+  vertical-align: top;
+  width: 23%;
+  padding-left: 30px;
+  position: relative;
+  &::after {
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 15px;
+    position: absolute;
+    border-left: solid 1px #e6e6e6;
+  }
+}
+.cardList {
+  display: block;
+  li {
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
+    border: solid 1px #e6e6e6;
+    border-radius: 5px;
+    width: 25px;
+    height: 25px;
+    font-size: 13px;
+    padding-top: 5px;
+    padding-left: 5px;
+    cursor: pointer;
+  }
+  li + li {
+    margin-left: 10px;
+  }
+  li.rightWrap {
+    float: right;
+    :after {
+      display: none;
+    }
+  }
+  .card {
+    padding: 5px 0 0 5px;
+  }
+  .share {
+    padding: 5px 0 0 5px;
+  }
+  .block {
+    padding: 5px 0 0 5px;
+    float: right;
+  }
+}
+.price {
+  margin-top: 40px;
+  .boldTxt {
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .monthTxt {
+    color: #8b8b8b;
+    font-size: 14px;
+  }
+  .currSymbl {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .priceTxt {
+    display: block;
+    color: #8b8b8b;
+    font-size: 14px;
+    margin-top: 3px;
+    padding-left: 7px;
+  }
+}
+.tbsection {
+  margin-top: 15px;
+  text-align: center;
+  .tbBtn {
+    display: block;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    color: #000000;
+    font-size: 16px;
+    font-weight: normal;
+    cursor: pointer;
+  }
+  .deal {
+    background-color: #0038ff;
+    color: #ffffff;
+    strong {
+      font-weight: normal;
+      position: relative;
+      display: inline-block;
+      vertical-align: top;
+      padding-right: 25px;
+      &::after {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: -2px;
+        display: inline-block;
+        vertical-align: top;
+        width: 20px;
+        height: 20px;
+        background: url('/assets/images/toparrow.png') no-repeat 0 0;
+        background-size: cover;
+      }
+    }
+  }
+  .compare {
+    margin-top: 10px;
+  }
+}
+.bottomWrap {
+  .topBox {
+    margin-top: 20px;
+    .leftBox {
+      display: inline-block;
+      vertical-align: top;
+      width: 25%;
+    }
+    .rightBox {
+      display: inline-block;
+      vertical-align: top;
+      width: 75%;
+    }
+  }
+}
+.listProduct {
+  margin-top: 30px;
+  li {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    .boldTxt {
+      font-weight: bold;
+      font-size: 25px;
+    }
+    .normalTxt {
+      font-size: 15px;
+      color: #bababa;
+    }
+    .btmTxt {
+      display: block;
+      color: #686868;
+      font-size: 14px;
+      padding-top: 5px;
+    }
+  }
+  li + li {
+    padding-left: 50px;
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 25px;
+      border-left: solid 1px #e6e6e6;
+    }
+  }
+}
+// .offerItemList.onlyMweb {
+//   display: none;
+// }
+.offerItemList {
+  margin-top: 30px;
+  li {
+    display: inline-block;
+    vertical-align: top;
+    span {
+      display: block;
+      border-radius: 5px;
+      background: #f8f8f8;
+      border: solid 1px #dfdfdf;
+      padding: 5px 8px;
+      color: #666666;
+      text-align: center;
+      font-size: 13px;
+    }
+  }
+  li + li {
+    margin-left: 10px;
+  }
+  .rating {
+    border-radius: 5px;
+    background: #f8f8f8;
+    border: solid 1px #dfdfdf;
+    padding: 4px 8px;
+    font-size: 12px;
+    color: #666666;
+    > span {
+      display: inline-block;
+      vertical-align: top;
+      border: none;
+      padding: 0;
+      margin: 0;
+    }
+    .ratingIcon {
+      color: #000000;
+    }
+    .ratingTxt {
+      font-size: 15px;
+      margin-left: 5px;
+    }
+  }
+}
+.imgBox {
+  position: relative;
+  border: solid 1px #dfdfdf;
+  background-color: #f8f8f8;
+  width: 90%;
+  border-radius: 5px;
+  height: 160px;
+  .imgSec {
+    position: relative;
+    margin: 15px auto;
+    width: 100px;
+    min-height: 80px;
+  }
+  .link {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: solid 1px #dfdfdf;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px 0;
+    a {
+      text-decoration: none;
+      font-size: 11px;
+      white-space: nowrap;
+      display: block;
+      text-align: center;
+    }
+  }
+}
+.linkIcon {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 3px;
+}
+.priceList {
+  position: relative;
+}
+.cardList li:hover {
+  .priceWrapSec {
+    display: block;
+  }
+}
+.priceWrapSec {
+  display: none;
+  position: absolute;
+  left: -52px;
+  top: 23px;
+  background: #ffffff;
+  padding: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 8px 20px rgba(119, 119, 119, 0.25);
+  border-radius: 6px;
+  width: 200px;
+  z-index: 2;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li {
+      display: block;
+      border: 0;
+      width: auto;
+      height: auto;
+      white-space: nowrap;
+      padding: 0;
+      margin: 0;
+      h5 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 10px;
+      }
+      .priceTxt,
+      .priceAmount {
+        display: inline-block;
+        vertical-align: top;
+        color: #a1a1a1;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: -0.02em;
+      }
+      .priceTxt {
+        width: 70%;
+      }
+      .priceAmount {
+        position: relative;
+        .currSymbl {
+          display: inline-block;
+          vertical-align: top;
+          padding-top: 2px;
+        }
+      }
+    }
+    .totalAmount {
+      padding-top: 10px;
+      margin-top: 10px;
+      border-top: solid 1px rgba(0, 0, 0, 0.1);
+      .priceTxt,
+      .priceAmount {
+        color: #000000;
+        font-weight: 500;
+      }
+    }
+  }
+}
+.mwebOttpSec,
+.mwebOttHead,
+.mwebArrowToggle {
+  display: block;
+}
+@media only screen and (min-width: 320px) and (max-width: 786px) {
+  
+  .mwebArrowToggle {
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    right: 16px;
+    top: 20px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    &::after {
+      content: '';
+      position: absolute;
+      right: 5px;
+      top: 2px;
+      border-top: solid 1px #000000;
+      border-right: solid 1px #000000;
+      transform: rotate(135deg);
+      width: 10px;
+      height: 10px;
+      transition: transform 0.3s ease;
+    }
+  }
+  .mwebArrowToggle.active {
+    &::after {
+      transform: rotate(-45deg);
+      top: 7px;
+    }
+  }
+  .boxWrap {
+    position: relative;
+    .serviceTopWrap,
+    .right {
+      display: block;
+      width: auto;
+    }
+    .serviceTopWrap {
+      .serviceListItem {
+        li {
+          margin: 5px;
+        }
+      }
+      .iconItem {
+        display: none;
+      }
+    }
+  }
+  .bottomWrap {
+    .topBox {
+      .leftBox {
+        .imgBox {
+          height: auto;
+        }
+        .imgSec {
+          width: 50px;
+          min-height: 50px;
+        }
+        .link {
+          display: none;
+        }
+      }
+    }
+  }
+  .bottomWrap {
+    padding-bottom: 20px;
+    border-bottom: solid 1px #e6e6e6;
+  }
+  .listProduct {
+    li {
+      .boldTxt {
+        font-size: 18px;
+        padding-right: 2px;
+      }
+      .btmTxt,
+      .normalTxt {
+        color: #000000;
+        font-size: 14px;
+      }
+    }
+    li + li {
+      margin-left: 5px;
+      padding-left: 5px;
+      &::after {
+        left: 0;
+      }
+    }
+  }
+  .offerItemList {
+    display: none;
+  }
+  .offerItemList.onlyMweb {
+    display: block;
+    margin-top: 20px;
+    li {
+      margin: 2px;
+    }
+  }
+  .right {
+    padding-left: 0;
+    &::after {
+      display: none;
+    }
+    .topCard {
+      float: right;
+    }
+  }
+  .price {
+    margin-top: 10px;
+    .boldTxt {
+      color: #0038ff;
+    }
+    .monthTxt,
+    .priceTxt {
+      font-size: 16px;
+      font-weight: 500;
+      color: #5e5e5e;
+    }
+  }
+  .tbsection {
+    .deal,
+    .compare {
+      display: inline-block;
+      vertical-align: top;
+    }
+    .compare {
+      margin-top: 0;
+      float: left;
+    }
+    .tbBtn {
+      width: 50%;
+      max-width: 120px;
+      font-size: 14px;
+      padding: 10px 5px;
+      + .tbBtn {
+        margin-right: 5px;
+      }
+    }
+  }
+  .priceWrapSec {
+    left: -140px;
+  }
+  .mwebOttHead {
+    display: block;
+    padding: 20px 0 5px 0;
+    color: #666666;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .mwebOttpSec {
+    display: block;
+    li {
+      position: relative;
+      width: 33.33%;
+      height: 30px;
+      display: inline-flex;
+      margin: 5px 0;
+      flex-wrap: wrap;
+      align-items: center;
+      flex-direction: row;
+      align-content: center;
+      justify-content: space-around;
+    }
+    li:first-child {
+      margin-left: 0;
+    }
+  }
+  .merchantImg {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 360px) {
+  .listProduct {
+    li {
+      .boldTxt {
+        font-size: 16px;
+      }
+      .btmTxt,
+      .normalTxt {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 787px) and (max-width: 1920px) {
+  .posrel {
+    position: relative;
+  }
+  .mwebArrowToggle {
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    right: 75px;
+    top: 3px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    z-index: 99;
+    &::after {
+      content: '';
+      position: absolute;
+      right: 5px;
+      top: 2px;
+      border-top: solid 1px #000000;
+      border-right: solid 1px #000000;
+      transform: rotate(135deg);
+      width: 10px;
+      height: 10px;
+      transition: transform 0.3s ease;
+    }
+  }
+  .mwebArrowToggle.active {
+    &::after {
+      transform: rotate(-45deg);
+      top: 7px;
+    }
+  }
+  .mwebOttpSec {
+    display: block;
+    li {
+      position: relative;
+      width: 96px;
+      height: 30px;
+      display: inline-flex;
+      margin: 5px 0;
+      flex-wrap: wrap;
+      align-items: center;
+      flex-direction: row;
+      align-content: center;
+      justify-content: space-around;
+    }
+    li:first-child {
+      margin-left: 0;
+    }
+  }
+  .mwebOttHead {
+    display: block;
+    padding: 20px 0 5px 0;
+    color: #666666;
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+
+}

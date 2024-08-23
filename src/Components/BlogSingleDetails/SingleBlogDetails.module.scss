@@ -1,0 +1,192 @@
+.singleBlogWraper{
+    padding:50px 0;
+}
+.topSection{
+    .backBtn{
+        position: relative;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 27px;
+        color: #0038FF;
+        padding-left:21px;
+        &::after{
+            content: '';
+            display: inline-block;
+            vertical-align: top;
+            width: 10px;
+            height: 10px;
+            border-top:solid 2px #0038FF;
+            border-left:solid 2px #0038FF;
+            position: absolute;
+            left: 5px;
+            top:5px;
+            transform: rotate(-45deg);
+
+        }
+    }
+}
+.blogLeftWraper, .blogRightWraper{
+    display: inline-block;
+    vertical-align: top;
+}
+.blogLeftWraper{
+    width: 73%;
+    .head1{
+        margin-top:18px;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 47px;
+        color: #000000;
+    }
+}
+.topTagWrap{
+    margin-top:16px;
+    .tagList{
+        display: inline-block;
+        vertical-align: top;
+        li{
+            display: inline-block;
+            vertical-align: top;
+            span{
+                padding: 6px 12px;
+                background: #F8F8F8;
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                border-radius: 4px;
+                font-size: 14px;
+                line-height: 19px;
+                color:#000000;
+                display: block;
+            }
+        }
+        li + li{
+            margin-left:10px;
+        }
+    }
+    .rightDate{
+        float: right;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        color: rgba(0, 0, 0, 0.5);
+    }
+}
+.blogDetailsTxt{
+    p{
+        margin-top:30px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        color: rgba(0, 0, 0, 0.7);
+    }
+    .imgSection{
+        margin:30px 0;
+        img{
+            width: 100%;
+        }
+    }
+}
+.blogFooter{
+    margin-top:30px;
+    text-align: right;
+    .nextReadBtn{
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        color: #0038FF;
+        padding-right: 20px;
+        &::after{
+            content: '';
+            display: inline-block;
+            vertical-align: top;
+            width: 10px;
+            height: 10px;
+            border-top:solid 2px #0038FF;
+            border-left:solid 2px #0038FF;
+            position: absolute;
+            right: 0px;
+            top:7px;
+            transform: rotate(135deg);
+        }
+    }
+}
+.blogRightWraper{
+    width: 25%;
+    margin-left:2%;
+}
+.leftWrapSec{
+    h3{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        color: #191919;
+        margin-bottom: 20px;
+    }
+}
+.addSection{
+    background: #E4E4E4;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 37px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    padding:150px 0;
+    margin:20px 0;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 786px) {
+    .singleBlogWraper{
+        padding:80px 0 0 0;
+        margin:20px;
+    }
+
+    .blogLeftWraper, .blogRightWraper{
+        display: block;
+        width: auto;
+        margin-left:0;
+    }
+    .topSection{
+        .backBtn{
+            font-size: 16px;
+            line-height: 22px;
+            &::after{
+                width:6px;
+                height: 6px;
+                left:8px;
+                border-width: 1px;
+            }
+        }
+    }
+    .blogLeftWraper{
+        .head1{
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 131.6%;
+        }
+        .topTagWrap{
+            margin-top:12px;
+        }
+        .rightDate{
+            margin-top:5px;
+        }
+        p{
+            margin-top:20px;
+        }
+        .imgSection{
+            margin:20px 0;
+        }
+    }
+    .blogFooter{
+        margin-top:20px;
+    }
+    .blogRightWraper{
+        border-top:solid 1px rgba(0, 0, 0, 0.1);
+        padding-top:20px;
+        margin-top:20px;
+    }
+    
+}

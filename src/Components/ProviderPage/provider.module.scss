@@ -1,0 +1,450 @@
+.planBg {
+    background-color: #ed1b24;
+    padding: 48px;
+    position: relative;
+}
+.planHead {
+    font-size: 54px;
+    text-transform: uppercase;
+    color: #fff;
+    max-width: 815px;
+    margin: 0 auto;
+    text-align: center;
+}
+.planHead img {
+    width: 80px;
+    height: auto;
+    position: relative;
+    top: 18px;
+    left: -10px;
+}
+.leftIcon {
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+.rightIcon {
+    position: absolute;
+    right: 18px;
+    top: 6px;
+}
+.rightIcon img {
+    width: 100px;
+    height: auto !important;
+    margin : 50px
+}
+.Premium {
+    display: inline-block;
+    position: relative;
+    top: 0;
+}
+.Premium img {
+    max-width: 190px;
+    height: auto;
+}
+.clear {
+    clear: both;
+}
+.plansBox {
+    width: 100%;
+    padding-top: 36px;
+}
+.choosePlans {
+    width: 40%;
+    float: left;
+    color: #fff;
+}
+.choosePlans > div {
+    font-weight: 700;
+    padding: 0 0 10px 0;
+}
+.choosePlans p > ul {
+    margin-left: 16px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+.choosePlans p > ul > li {
+    list-style: disc;
+    padding-bottom: 7px;
+    font-weight: 200;
+    font-size: 14px;
+}
+.popularPlan {
+    width: 60%;
+    float: left;
+}
+.popularPlan > div {
+    text-align: center;
+}
+.popularPlan > div img {
+    max-width: 350px;
+}
+.popularPlanlist {
+    max-width: 585px;
+    font-size: 18px;
+    margin: 0 auto;
+}
+.popularPlanlist > p {
+    margin: 0 auto;
+}
+.popularPlanlist > p > p {
+    background-color: #fff;
+    margin: 0 auto 15px;
+    padding: 12px;
+    border-radius: 15px;
+}
+.btnBox {
+    margin-top: 45px;
+    display: flex;
+}
+.btnBox > a {
+    background-image: linear-gradient(to right top, #7b008b, #70007f, #660073, #5b0067, #51005b);
+    display: flex;
+    padding: 12px 15px;
+    border: 1px solid #fff;
+    border-radius: 23px;
+    margin-right: 24px;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+}
+.btnBox > a > img {
+    margin-right: 7px;
+    width: 24px;
+    height: auto;
+}
+.wrapContainer {
+    width: 1200px;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+    
+}
+.broadband {
+    padding: 48px 0;
+}
+.broadband .head {
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 12px;
+}
+.subhead {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0 15px;
+}
+.broadband p {
+    color: #393939;
+    margin-bottom: 15px;
+    font-size: 16px;
+    letter-spacing: .5px;
+    font-weight: 200;
+    line-height: 20px;
+}
+.hideSomeField .provider {
+    width: 100%;
+}
+.Mancheering {
+    background-image: url("../../../public/assets/plans/Mancheering.png");
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.MancheeringCont {
+    width: 25%;
+    float: left;
+    padding: 107px 20px;
+    text-align: center;
+}
+.MancheeringCont > img {
+    max-width: 100%;
+    width: 42px;
+    height: auto;
+}
+.MancheeringCont > div {
+    font-weight: 700;
+    font-size: 15px;
+    padding-bottom: 7px;
+    padding-top: 5px;
+}
+.MancheeringCont > p {
+    font-size: 12px;
+    letter-spacing: .5px;
+    line-height: 16px;
+}
+.MancheeringBg {
+    background-color: #e9e9e9;
+}
+.col7 {
+    width: 70%;
+    float: left;
+    padding: 0 15px;
+}
+.col7 > ul {
+    margin-left: 22px;
+}
+.col7 > ul > li {
+    list-style: disc;
+    padding-bottom: 7px;
+    font-weight: 200;
+    font-size: 14px;
+}
+.col3 {
+    width: 30%;
+    float: left;
+    padding: 0 15px;
+}
+.headdeals {
+    max-width: 210px;
+    line-height: 28px;
+    float: left;
+}
+.col3 > div > img {
+    width: 90px;
+    height: auto;
+    margin-top: 7px;
+}
+.pinCode {
+    margin-bottom: 16px;
+}
+.pinCode {
+    margin-bottom: 16px;
+}
+.pinCode > form {
+    height: 35px;
+}
+.pinCode > form > div {
+    width: auto;
+    min-width: 225px;
+    float: left;
+    margin-right: 16px;
+}
+.pinCode > form > div > div input {
+    outline: none;
+    border: none;
+    padding: 10px 7px;
+}
+.pinCode > form > a {
+    background-color: #ed1b24;
+    color: #fff;
+    padding: 7px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    position: relative;
+    top: 8px;
+}
+.pinCode > input {
+    outline: none;
+    border: none;
+    padding: 10px 7px;
+}
+.pinCode > a {
+    background-color: #ed1b24;
+    color: #fff;
+    padding: 7px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+.planDeals {
+    background-color: #ed1b24;
+    color: #fff;
+    padding: 32px 48px;
+    border-radius: 20px;
+}
+.headWhite {
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 24px;
+    line-height: 26px;
+}
+.headRed {
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 24px;
+    line-height: 36px;
+    color: #ed1b24;
+    text-align: center;
+    text-transform: uppercase;
+}
+.headBlack {
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 24px;
+    line-height: 36px;
+    color: #000;
+}
+.btnDeals {
+    background-image: url("../../../public/assets/plans/btnBg.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 18px 22px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.BroadbandPlan {
+    position: relative;
+    display: none;
+}
+.BroadbandPlan > a {
+    position: absolute;
+    left: 0;
+}
+.textCenter {
+    text-align: center;
+}
+.blogBox {
+    display: flex;
+    grid-gap: 16px;
+}
+.btmTxtWrap{
+    margin-top:90px;
+    text-align: center;
+    color: #545252;
+    font-size: 16px;
+    .btnplan{
+        display: inline-block;
+        vertical-align: middle;
+        margin-left:20px;
+        padding: 15px 40px 15px 20px;
+            background: #0038ff;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            text-transform: uppercase;
+            outline: none;
+            border:0;
+            border-radius: 5px;
+            position: relative;
+            &::after{
+                content: '';
+                position: absolute;
+                right: 12px;
+                top: 11px;
+                background: url(/assets/images/toparrow.png) no-repeat 0 0;
+                display: inline-block;
+                vertical-align: top;
+                width: 23px;
+                height: 25px;
+                background-size: 100%;
+            }
+    }
+}
+.blogBoxlist {
+    width: 25%;
+    display: grid;
+    grid-gap: 16px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+}
+.blogBoxlist:hover {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+}
+.blogBoxlist p {
+    padding: 0 15px;
+}
+.blogBoxlist > div {
+    border-radius: 12px;
+}
+.blogBoxlist > div > img {
+    border-radius: 12px;
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 800px) {
+    .wrapContainer {
+        max-width: 96%;
+    }
+    .planBg {
+        padding: 24px;
+    }
+    .planHead {
+        font-size: 32px;
+    }
+    .plansBox {
+        padding-top: 62px;
+    }
+    .choosePlans {
+        width: 55%;
+    }
+    .popularPlan {
+        width: 45%;
+    }
+    .popularPlanlist {
+        font-size: 14px;
+    }
+    .popularPlan > div img {
+        max-width: 236px;
+        height: auto;
+    }
+    .col3, .col5 {
+        width: 48%;
+    }
+    .col7 {
+        width: 52%;
+    }
+    .blogBox {
+        display: inherit;
+    }
+    .blogBoxlist {
+        width: 100%;
+        display: inherit;
+        margin-bottom: 15px;
+    }
+    .blogBoxlist > div > img {
+        width: 100%;
+    }
+    .subhead {
+        padding: 15px;
+    }
+    .blogBoxlist p {
+        padding: 0 15px 15px;
+    }
+    .Mancheering {
+        background-image: none;
+        background-color: #e7e7e7;
+    }
+    .broadband {
+        padding: 32px 0;
+    }
+    .MancheeringCont {
+        width: 33.333%;
+        padding: 48px 20px;
+    }
+    .BroadbandPlan {
+        display: none;
+    }
+}
+@media (max-width: 600px) {
+    .wrapContainer {
+        max-width: 92%;
+    }
+    .planHead {
+        font-size: 24px;
+        padding-top: 120px;
+    }
+    .col3, .col5 {
+        width: 100%;
+    }
+    .col7 {
+        width: 100%;
+    }
+    .choosePlans {
+        width: 100%;
+    }
+    .popularPlan {
+        width: 100%;
+    }
+    .btnBox {
+        margin: 24px 0;
+    }
+    .MancheeringCont {
+        width: 100%;
+        padding: 16px 0px;
+    }
+    
+    
+}

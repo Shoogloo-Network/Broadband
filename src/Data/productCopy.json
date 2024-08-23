@@ -1,0 +1,107 @@
+{
+    "data":[
+        {
+            "top":{
+                "serviceAvailable" :[
+                    {"title":"Featured Deal","btnClass":"featuredDealBtn"},
+                    {"title":"Online Exclusive","btnClass":"exclusiveBtn"},
+                    {"title":"Cheapest","btnClass":"cheapBtn"},
+                    {"title":"Special Offer","btnClass":"speOfficeBtn"}
+                ],
+                "feature":["phone","wifi"]
+            },
+            "bottom":{
+                "provider":"ACTFiber",
+                "providerName":"Act Fiber 2",
+                "offerDate": "19.02.2023",
+                "bandWidth":"10",
+                "dataLimit":"1000",
+                "dataLimitExpire":"1",
+                "rating":"4.3",
+                "feature":["No Setup Costs", "Free Installation", "New Customers Only"]
+            },
+            "cartDetails":{
+                "type":["card","share","block"],
+                "monthlyRent":"1250"
+            }
+        },
+        {
+            "top":{
+                "serviceAvailable" :[
+                    {"title":"Recommded","btnClass":"recommedBtn"},
+                    {"title":"Unavailable","btnClass":"unavailableBtn"},
+                    {"title":"Cheapest","btnClass":"cheapBtn"},
+                    {"title":"Special Offer","btnClass":"speOfficeBtn"}
+                ],
+                "feature":["phone","wifi"]
+            },
+            "bottom":{
+                "provider":"ACTFiber",
+                "providerName":"Act Fiber 2",
+                "offerDate": "19.02.2023",
+                "bandWidth":"30",
+                "dataLimit":"1000",
+                "dataLimitExpire":"12",
+                "rating":"4.3",
+                "feature":["No Setup Costs", "Free Installation", "New Customers Only"]
+            },
+            "cartDetails":{
+                "type":["card","share","block"],
+                "monthlyRent":"1250"
+            }
+        },
+        {
+            "top":{
+                "serviceAvailable" :[
+                    {"title":"Featured Deal","btnClass":"featuredDealBtn"},
+                    {"title":"Online Exclusive","btnClass":"exclusiveBtn"},
+                    {"title":"Cheapest","btnClass":"cheapBtn"},
+                    {"title":"Special Offer","btnClass":"speOfficeBtn"}
+                ],
+                "feature":["phone","wifi"]
+            },
+            "bottom":{
+                "provider":"Jio",
+                "providerName":"JIO Fiber",
+                "offerDate": "19.07.2023",
+                "bandWidth":"50",
+                "dataLimit":"1000",
+                "dataLimitExpire":"18",
+                "rating":"4.3",
+                "feature":["No Setup Costs", "Free Installation", "New Customers Only"]
+            },
+            "cartDetails":{
+                "type":["card","share","block"],
+                "monthlyRent":"1450"
+            }
+        },
+        {
+            "top":{
+                "serviceAvailable" :[
+                    {"title":"Recommded","btnClass":"recommedBtn"},
+                    {"title":"Unavailable","btnClass":"unavailableBtn"},
+                    {"title":"Cheapest","btnClass":"cheapBtn"},
+                    {"title":"Special Offer","btnClass":"speOfficeBtn"}
+                ],
+                "feature":["phone","wifi"]
+            },
+            "bottom":{
+                "provider":"Vodafone",
+                "providerName":"Act Fiber 2",
+                "offerDate": "19.04.2023",
+                "bandWidth":"100",
+                "dataLimit":"1000",
+                "dataLimitExpire":"24",
+                "rating":"4.1",
+                "feature":["No Setup Costs", "Free Installation", "New Customers Only"]
+            },
+            "cartDetails":{
+                "type":["card","share","block"],
+                "monthlyRent":"1950"
+            }
+        }
+    ]
+}
+
+
+

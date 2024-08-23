@@ -1,0 +1,49 @@
+{
+    "data": {
+      "speedFilter": [
+        {
+          "id": "1",
+          "labelHead": "100Mbps",
+          "labelText": "Below ",
+          "type": "speed",
+          "value": "below_100mbps"
+        },
+        {
+          "id": "2",
+          "labelHead": "100Mbps",
+          "labelText": "Above ",
+          "type": "speed",
+          "value": "above_100mbps"
+        },
+        {
+          "id": "3",
+          "labelHead": "1Gbps+",
+          "labelText": "Ultrafast Fiber",
+          "type": "speed",
+          "value": "above_1gbps"
+        }
+      ],
+      "newFilter": [
+        {
+          "title": "OTT Subscriptions",
+          "value": "ottSubscriptions",
+          "type": "attribute"
+        },
+        {
+          "title": "Unlimited Data",
+          "value": "unlimitedData",
+          "type": "attribute"
+        },
+        {
+          "title": "Free Installation",
+          "value": "freeInstallation",
+          "type": "attribute"
+        },
+        {
+          "title": "Special Offer Plans Only ",
+          "value": "specialOfferPlansOnly",
+          "type": "attribute"
+        }
+      ]
+    }
+  }

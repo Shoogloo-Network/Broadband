@@ -1,0 +1,121 @@
+.wraperSection {
+  padding-top: 90px;
+  h3 {
+    margin-top: 10px;
+  }
+  .txtPragCenter {
+    text-align: center;
+    color: #8c8c8c;
+    font-size: 15px;
+    color: #575353;
+    font-size: 22px;
+    span {
+      font-weight: bold;
+      display: inline-block;
+      vertical-align: text-top;
+    }
+  }
+  .btnWrap {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 90px;
+    .btnPlan {
+      display: inline-block;
+      vertical-align: top;
+      padding: 12px 40px 12px 25px;
+      background: #0038ff;
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+      text-transform: uppercase;
+      outline: none;
+      border: 0;
+      position: relative;
+      &::after {
+        content: '';
+        position: absolute;
+        right: 10px;
+        top: 8px;
+        background: url(../../../public/assets/images/toparrow.png) no-repeat 0
+          0;
+        display: inline-block;
+        vertical-align: top;
+        width: 23px;
+        height: 25px;
+        background-size: 100%;
+      }
+    }
+  }
+  .txtCenterHome {
+    text-align: center;
+    color: #b7b7b7;
+    font-size: 14px;
+    padding: 0 35px;
+  }
+  .plansList {
+    list-style-type: none;
+    margin: 0;
+    padding: 90px 0 75px 0;
+    text-align: center;
+    li {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+      vertical-align: top;
+      max-width: 220px;
+      max-height: 140px;
+      .providerImg {
+        object-fit: contain;
+        mix-blend-mode: darken;
+      }
+    }
+    li + li {
+      margin-left: 120px;
+    }
+  }
+}
+.imgSec {
+  position: relative;
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .wraperSection {
+    padding-top: 30px;
+    .plansList {
+      padding: 20px;
+      text-align: center;
+      li {
+        max-width: 100px;
+        max-height: 80px;
+        margin: 20px;
+        img {
+          width: 100%;
+        }
+      }
+      li + li {
+        margin-left: 10px;
+      }
+    }
+    .txtPragCenter {
+      font-size: 12px;
+    }
+    .btnWrap {
+      padding-top: 20px;
+      padding-bottom: 40px;
+      .btnPlan {
+        display: block;
+        margin: 20px;
+      }
+    }
+    .txtCenterHome {
+      font-size: 12px;
+      padding: 0 20px;
+    }
+  }
+}

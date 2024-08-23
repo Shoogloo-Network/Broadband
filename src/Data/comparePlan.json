@@ -1,0 +1,106 @@
+{
+    "data":[
+        {
+            "provider":"ACTFiber",
+            "recomendedPlan":true,
+            "listItem":{
+                "price":"150",
+                "typeMonth":"Mb/s",
+                "speed":"1000",
+                "speedMonth":"Gb/Month",
+                "limitMonth":"18",
+                "limitMonthType":"Months"
+            },
+            "typeBtnTxt":"Broadband + Wifi",
+            "ottService": "5 OTT Services Included",
+            "monthRs": "₹ 1250",
+            "monthRsTx":"/mo",
+            "monthGstTx": "inc. GST"
+        },
+        {
+            "provider":"Airtel",
+            "recomendedPlan":false,
+            "listItem":{
+                "price":"160",
+                "typeMonth":"Mb/s",
+                "speed":"1400",
+                "speedMonth":"Gb/Month",
+                "limitMonth":"28",
+                "limitMonthType":"Months"
+            },
+            "typeBtnTxt":"Broadband + Wifi",
+            "ottService": "23 OTT Services Included",
+            "monthRs": "₹ 1650",
+            "monthRsTx":"/mo",
+            "monthGstTx": "inc. GST"
+        },
+        {
+            "provider":"ACTFiber",
+            "recomendedPlan":true,
+            "listItem":{
+                "price":"150",
+                "typeMonth":"Mb/s",
+                "speed":"1000",
+                "speedMonth":"Gb/Month",
+                "limitMonth":"18",
+                "limitMonthType":"Months"
+            },
+            "typeBtnTxt":"Broadband + Wifi",
+            "ottService": "5 OTT Services Included",
+            "monthRs": "₹ 1250",
+            "monthRsTx":"/mo",
+            "monthGstTx": "inc. GST"
+        },
+        {
+            "provider":"Airtel",
+            "recomendedPlan":false,
+            "listItem":{
+                "price":"160",
+                "typeMonth":"Mb/s",
+                "speed":"1400",
+                "speedMonth":"Gb/Month",
+                "limitMonth":"28",
+                "limitMonthType":"Months"
+            },
+            "typeBtnTxt":"Broadband + Wifi",
+            "ottService": "23 OTT Services Included",
+            "monthRs": "₹ 1650",
+            "monthRsTx":"/mo",
+            "monthGstTx": "inc. GST"
+        },
+        {
+            "provider":"ACTFiber",
+            "recomendedPlan":true,
+            "listItem":{
+                "price":"150",
+                "typeMonth":"Mb/s",
+                "speed":"1000",
+                "speedMonth":"Gb/Month",
+                "limitMonth":"18",
+                "limitMonthType":"Months"
+            },
+            "typeBtnTxt":"Broadband + Wifi",
+            "ottService": "5 OTT Services Included",
+            "monthRs": "₹ 1250",
+            "monthRsTx":"/mo",
+            "monthGstTx": "inc. GST"
+        },
+        {
+            "provider":"Airtel",
+            "recomendedPlan":false,
+            "listItem":{
+                "price":"160",
+                "typeMonth":"Mb/s",
+                "speed":"1400",
+                "speedMonth":"Gb/Month",
+                "limitMonth":"28",
+                "limitMonthType":"Months"
+            },
+            "typeBtnTxt":"Broadband + Wifi",
+            "ottService": "23 OTT Services Included",
+            "monthRs": "₹ 1650",
+            "monthRsTx":"/mo",
+            "monthGstTx": "inc. GST"
+        }
+    ]
+}

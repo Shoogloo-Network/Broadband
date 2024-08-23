@@ -1,0 +1,182 @@
+.wraperSection {
+  padding-top: 110px;
+  h3 {
+    margin-top: 10px;
+  }
+}
+
+.boxContainer {
+  margin-bottom: 40px;
+  margin-top: 80px;
+  p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+.extraSec {
+  padding: 10px;
+  display: flex;
+  position: relative;
+  .infoListItem {
+    width: 50%;
+    padding-top: 50px;
+    li {
+      margin-top: 20px;
+      font-size: 22px;
+      font-weight: 400;
+      padding-left: 20px;
+    }
+  }
+  .rightSecImg {
+    background: url("../../../public/assets/homelanding/about-us.png") no-repeat
+      top center;
+    width: 50%;
+    height: 300px;
+    background-size: contain;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 786px) {
+  .boxContainer p {
+    margin: 0 20px;
+    text-align: justify;
+  }
+  .extraSec {
+    .infoListItem {
+      li {
+        font-size: 14px;
+      }
+    }
+    .rightSecImg {
+      background-position: center center;
+    }
+  }
+}
+
+// Extra CSS
+#whyUssection {
+  background-image: url("../../../public/assets/homelanding/about-us-new.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 50%;
+
+  min-height: 500px;
+  h2 {
+    font-size: 30px;
+    color: #0038ff;
+    line-height: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  & > p {
+    font-size: 40px;
+    line-height: 46px;
+    font-weight: bold;
+  }
+}
+
+.whyUsList {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  gap: 20px;
+}
+
+.whyUsList {
+  margin-top: 30px;
+}
+
+.whyUsList li {
+  display: flex;
+  gap: 20px;
+  max-width: 290px;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.whyUsList li > div:first-child {
+  margin-top: 5px;
+}
+
+.whyUsList h4 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.whyUsList p {
+  font-size: 18px;
+  line-height: 22px;
+  color: #444444;
+}
+
+@media screen and (max-width: 992px) {
+  #whyUssection {
+    text-align: center;
+    background-position: 50% 160px;
+  }
+
+  .whyUsList {
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 260px;
+  }
+
+  .whyUsList li {
+    max-width: 320px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  #whyUssection > p {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  #whyUssection {
+    background-position: 50% 110px;
+
+    h2 {
+      line-height: 40px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+
+  .whyUsList {
+    margin-top: 200px;
+  }
+
+  .whyUsList li {
+    max-width: 100%;
+    padding: 0 40px;
+  }
+
+  .whyUsList li br {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .wrapContainer {
+    padding-top: 40px;
+  }
+
+  #whyUssection {
+    background-position: 50% 160px;
+    h2 {
+      font-size: 25px;
+    }
+  }
+}
+
+@media screen and (max-width: 370px) {
+  #whyUssection {
+    background-position: 50% 110px;
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "apps" : [{
+        "name" : "Broadband_Frontend",
+        "script" : "./node_modules/next/dist/bin/next"
+    }]
+}

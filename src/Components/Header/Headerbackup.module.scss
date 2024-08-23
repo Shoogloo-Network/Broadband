@@ -1,0 +1,221 @@
+.header {
+  display: block;
+  width: 1200px;
+  margin: 0 auto;
+}
+.logo,
+.menuList,
+.menuRightSide {
+  display: inline-block;
+  vertical-align: top;
+}
+.logo {
+  margin-right: 110px;
+}
+.menuList {
+  li {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    a {
+      font-size: 18px;
+      font-weight: normal;
+      padding: 15px 3px;
+      display: block;
+      line-height: 40px;
+    }
+    .dropdownMenuItem {
+      text-align: left;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      width: 270px;
+      background-color: #191919;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 4px;
+      opacity: 0;
+      visibility: hidden;
+      z-index: 4;
+      box-shadow: 0 0 40px rgba(82, 85, 90, 0.2);
+      transition: all 0.3s;
+      transform-origin: top;
+      transform: perspective(250px) rotateX(-15deg);
+    }
+    &:hover {
+      .dropdownMenuItem {
+        transform: perspective(300px) rotateX(0);
+        opacity: 1;
+        visibility: visible;
+        li {
+          margin-left: 0;
+          a {
+            display: -ms-flex;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+            padding: 3px 25px;
+          }
+        }
+      }
+    }
+  }
+  li + li {
+    margin-left: 40px;
+  }
+}
+.logoimg {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 8px;
+}
+.menuRightSide {
+  margin-left: 215px;
+  margin-top: 15px;
+  ul {
+    li {
+      display: inline-block;
+      vertical-align: top;
+      .searchIcon,
+      .userIcon {
+        display: block;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+      .userIcon {
+        background: url('/assets/images/usericon.png') no-repeat -4px -4px;
+        background-size: 100%;
+        width: 30px;
+        height: 30px;
+      }
+      .searchIcon {
+        background: url('/assets/images/seachicon.png') no-repeat 0 0;
+        background-size: 100%;
+        width: 30px;
+        height: 30px;
+      }
+    }
+    li + li {
+      margin-left: 10px;
+    }
+  }
+}
+
+.mobileMenu {
+  display: none;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 786px) {
+  .header {
+    width: 75%;
+    margin: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 2;
+    background: #191919;
+    transition: transform 0.5s;
+  }
+  .hideMobileMenu {
+    display: none;
+  }
+  .showmobileMenu {
+    display: block;
+  }
+  .logo {
+    margin: 10px 0 0 20px;
+    img {
+      margin-top: 0;
+    }
+  }
+  .menuList {
+    display: block;
+    margin-top: 10px;
+    background-color: #191919;
+    li {
+      display: block;
+      margin-left: 20px;
+      a {
+        padding: 10px 0;
+        display: block;
+      }
+      .dropdownMenuItem {
+        opacity: 1;
+        visibility: visible;
+        transform: perspective(0) rotateX(0);
+        display: none;
+        width: 100%;
+        height: 210px;
+        overflow-x: auto;
+        overflow-y: auto;
+        border-radius: 0;
+        box-shadow: 0 0 0 0;
+        position: relative;
+        top: auto;
+        left: auto;
+        padding-bottom: 0;
+        background-color: transparent;
+      }
+      &:hover {
+        .dropdownMenuItem {
+          transform: perspective(300px) rotateX(0);
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+    }
+    li + li {
+      margin-left: 20px;
+    }
+  }
+  .menuRightSide {
+    display: none;
+  }
+  .mobileMenu {
+    display: block;
+    height: 70px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    .left,
+    .right {
+      display: inline-block;
+      vertical-align: top;
+    }
+    .left {
+      width: 50px;
+      height: 50px;
+      background: url('/assets/images/logo2.png') no-repeat 0 0;
+      background-size: cover;
+      margin: 10px 0 0 20px;
+    }
+    .right {
+      float: right;
+      width: 16px;
+      height: 8px;
+      margin: 30px 20px 0 0;
+      position: relative;
+      cursor: pointer;
+      &::after {
+        content: '';
+        display: inline-block;
+        vertical-align: top;
+        position: absolute;
+        right: 0;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        border-top: solid 1px #fff;
+        border-bottom: solid 1px #fff;
+      }
+    }
+  }
+}
+
+
+

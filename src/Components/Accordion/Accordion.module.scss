@@ -1,0 +1,32 @@
+.accordion {
+    width: 100%;
+  }
+  
+  .accordionItem {
+    border-bottom: 1px solid #111;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+  }
+  
+  .accordionItemHeader {
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: .5px;
+  }
+  .Accordion_accordionItemHeader__lMs78.open{
+    padding-bottom: 15px;
+  }
+  
+  .accordionItemContent {
+    padding: 10px;
+    display: none;
+    background-color: #fff;
+  }
+  
+  .accordionItem.open .accordionItemContent {
+    display: block;
+  }
+  .accordionIcon {
+    float: right;
+    width: 14px;
+  }

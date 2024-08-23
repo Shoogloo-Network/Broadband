@@ -1,0 +1,170 @@
+{
+  "data": [
+    {
+      "topSlider": {
+        "headTxt1": "Find the <br /> Best BroadBand.",
+        "headTxt2": "Rated#1 Comparison site",
+        "headTxt3": "BroadBand.asia lets you find and compare all the best brarodband serviceand Dels around you.",
+        "providerListTxt": [
+          {
+            "id": 1,
+            "title": "Internet Providers Listed",
+            "providerNumber": "150+"
+          },
+          {
+            "id": 2,
+            "title": "Internet Providers Listed",
+            "providerNumber": "150+"
+          }
+        ]
+      },
+      "serviceProviders": {
+        "headTxt1": "Top Service Providers.",
+        "headTxt2": "Best Plans.",
+        "providerList": [
+          { "imageLink": "https://jio" },
+          { "imageLink": "https://jio" },
+          { "imageLink": "https://jio" },
+          { "imageLink": "https://jio" },
+          { "imageLink": "https://jio" }
+        ],
+        "providerTxt": "checkout unlimited plans starting just",
+        "providerTxtBold": "Rs699/month",
+        "providerPragraph": "broadbadn.aisa compare and showsthe plans listed by the above providers and helps you make the right choice. Few exclusive plans might benot listed on Broadband.aisa and all the plans listd mights not be available deployings on yours location or IPS coverage area."
+      },
+      "latestOfferCards": {
+        "headTxt1": "Our Latest offers",
+        "headTxt2": "Just for you .",
+        "planListItems": [
+          {
+            "providerImageUrl": "https://www jion logo image",
+            "providerName": "Jio Fiber",
+            "bgColor": "normal",
+            "maxBandWidth": 150,
+            "maxBandWidthPlan": "mb/s",
+            "dataLimit": 1000,
+            "dataPlan": "Gb/Month",
+            "dataTxt": "Data Limit",
+            "ottpAvailable": [
+              { "title": "ottp subscription", "id": 1 },
+              { "title": "free installation", "id": 2 },
+              { "title": "free first months", "id": 3 }
+            ],
+            "priceSymbl": "Rs",
+            "planPrice": 799,
+            "planType": "month",
+            "tagLine": "primePlan",
+            "tagLineText": "prime customer only",
+            "planDetailsLinkId": 12
+          }
+        ],
+        "pragraphTxt": "Couldn't find your perfect plan ? Explore all other plansVIEW ALL PLANS"
+      },
+      "whyComparePlan": {
+        "headTxt1": "Why Broadband",
+        "headTxt2": "BroadBand Plans?",
+        "planListItems": [
+          {
+            "id": 1,
+            "title": "Ccoost Savings",
+            "pragraphTxt": "Comparing broadband plans allows you fees or charges theat may not be evident upfront. By comparing plans, you can identity any potential additional costs and make an information decision",
+            "planIconName": "costSavings"
+          },
+          {
+            "id": 2,
+            "title": "Better Features",
+            "pragraphTxt": "Diffent broadband plans come with diffrent fees or charges theat may not be evident upfront. By comparing plans, you can identity any potential additional costs and make an information decision",
+            "planIconName": "betterFeatures"
+          },
+          {
+            "id": 3,
+            "title": "Avoid Hidden Fees",
+            "pragraphTxt": "Comparing broadband plans allows you fees or charges theat may not be evident upfront. By comparing plans, you can identity any potential additional costs and make an information decision",
+            "planIconName": "avoidHiddenFees"
+          },
+          {
+            "id": 4,
+            "title": "Better Features",
+            "pragraphTxt": "Diffent broadband plans come with diffrent fees or charges theat may not be evident upfront. By comparing plans, you can identity any potential additional costs and make an information decision",
+            "planIconName": "betterFeatures"
+          }
+        ]
+      },
+      "howItWorks": {
+        "headTxt1": "HELP US FIND THE RIGHT BROADBAND FOR YOU",
+        "headTxt2": "How it Works",
+        "planListItems": [
+          {
+            "id": 0,
+            "headTxt": "step 1.",
+            "title": "Check Availability",
+            "pragraphTxt": "Search your City and check which internet options are available in your area."
+          },
+          {
+            "id": 1,
+            "headTxt": "step 2.",
+            "title": "Compare Plans",
+            "pragraphTxt": "Search your City and check which internet options are available in your area."
+          },
+          {
+            "id": 2,
+            "headTxt": "step 3.",
+            "title": "Choose your Plan!",
+            "pragraphTxt": "Search your City and check which internet options are available in your area."
+          }
+        ]
+      },
+      "diffrentCompare": {
+        "headTxt1": "How to Compare different",
+        "headTxt2": "Broadband Plans?",
+        "planListItems": [
+          {
+            "id": 0,
+            "headTxtIcon": "step1",
+            "title": "Determine Your Needs",
+            "pragraphTxt": "The first step in comparing broadband plans is to identity your specific needs. Whether you need internet for working from home? or gaming ? or just streaming Netflix? ETC."
+          },
+          {
+            "id": 1,
+            "headTxtIcon": "step2",
+            "title": "Check availability",
+            "pragraphTxt": "Search your City and check which internet options are available in your area."
+          },
+          {
+            "id": 2,
+            "headTxtIcon": "step3",
+            "title": "Compare Plans",
+            "pragraphTxt": "Search your City and check which internet options are available in your area."
+          }
+        ]
+      },
+      "checkOutGuides": {
+        "headTxt1": "Checkout Our",
+        "headTxt2": "Guides",
+        "planListItems": [
+          {
+            "id": 1,
+            "imageLink": "https://jio",
+            "imageTxt": "#Guide",
+            "pragraphTxt": "How much data do you need? Know your Usage.",
+            "readMoreId": 12
+          },
+          {
+            "id": 2,
+            "imageLink": "https://jio",
+            "imageTxt": "#Guide",
+            "pragraphTxt": "How much data do you need? Know your Usage.",
+            "readMoreId": 13
+          },
+          {
+            "id": 3,
+            "imageLink": "https://jio",
+            "imageTxt": "#Guide",
+            "pragraphTxt": "How much data do you need? Know your Usage.",
+            "readMoreId": 14
+          }
+        ]
+      }
+    }
+  ]
+}

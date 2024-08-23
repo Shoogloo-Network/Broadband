@@ -1,0 +1,111 @@
+.feedbckWrap{
+    position: fixed;
+    left:0;
+    right: 0;
+    top:0;
+    bottom:0;
+    z-index: 3;
+    background:rgba(0,0,0,0.4);
+}
+.feedbackSec{
+    margin:50px auto 0 auto;
+    width:500px;
+    background: #FFFFFF;    
+    border-radius: 7px;
+    padding:36px;
+    box-sizing: border-box;
+}
+.feedbckTop{
+    h5{
+        position: relative;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 37px;
+        .feedbckClose{
+            float: right;
+            width: 20px;
+            height: 20px;
+            position: relative;
+            margin-top: 9px;
+            cursor: pointer;
+            &::after, &::before{
+                content: '';
+                position: absolute;
+                left:10px;
+                top:0;
+                bottom:0;
+                border-left: 1.75px solid #000000;
+                transform: rotate(45deg);
+            }
+            &::before{
+                transform: rotate(-45deg);
+            }
+        }
+    }
+}
+
+.feedbckForm{
+    margin-top: 20px;
+    h4{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 32px;
+        color: #7e7e7e;
+    }
+}
+.formGroup{
+    margin-top:10px;
+    white-space: nowrap;
+    .radioSec{
+        display: inline-block;
+        vertical-align: top;
+        margin-right:15px;
+        input{
+            margin-top:5px;
+        }
+    }
+    label{
+        display: inline-block;
+        vertical-align: top;
+        color: #191919;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        cursor: pointer;
+    }
+}
+.formGroupBtn.formGroup{
+    margin-top:20px;
+    text-align: right;
+    button{
+        background: #FF0000;
+        border-radius: 4px;
+        padding: 6px 14px 6px 19px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 32px;
+        color: #FFFFFF;
+        cursor: pointer;
+        border:0;
+    }
+}
+.thankMsg{
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #544646;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 786px) {
+    .feedbackSec{
+        width:90%;
+        margin-top:100px;
+    }
+    .formGroup{
+        margin-top:5px;
+        label{
+            font-size:14px;
+        }
+    }
+}

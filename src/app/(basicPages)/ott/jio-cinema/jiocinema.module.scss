@@ -1,0 +1,639 @@
+.wrapContainer {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.bannerjio {
+    background-image: url("../../../../../public/assets/jiocinema/banner-bg.jpg");
+    background-position: top center;
+    background-size: cover;
+    min-height: calc(100vh - 87px);
+    max-height: calc(100vh - 87px);
+    text-align: center;
+    position: relative;
+}
+.bannerjio p{
+    font-size: 16px;
+    line-height: 26px;
+}
+.col6 {
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+}
+.col5 {
+    width: 41.66666667%;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+}
+.col7 {
+    width: 58.33333333%;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+}
+.col4 {
+    width: 33.333%;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+}
+.col3 {
+    width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+}
+.col9 {
+    width: 83.333%;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+}
+.clear {
+    clear: both;
+}
+.py5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+.textCenter {
+    text-align: center;
+}
+
+.pb20 {
+    padding-bottom: 20px;
+}
+.pt5 {
+    padding-top: 42px;
+    color: #fff;
+}
+.bannerjio .cover{
+    background-color: rgba(0, 0, 0, 0.6);
+    min-height: calc(100vh - 87px);
+    max-height: calc(100vh - 87px);
+    background-size: cover;
+    background-position: center;
+}
+.jioTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.jioTitle img{
+    min-height: 50px;
+    max-width: 50px;
+}
+
+.jioTitle > h1{
+    font-size: 28px;
+    line-height: 36px;
+    padding-left: 10px; 
+    color: #fff; 
+} 
+.slick-next {
+    right: 7px;
+}
+.slick-prev {
+    left: 7px;
+}
+.jioCinema{
+    display: flex;
+    justify-content: center;
+    align-items: end ;
+    position: absolute;
+    left: 50%;
+    margin-left: -360px;
+    bottom: 0;
+
+}
+.aboutjioCinema {
+    max-width: 463px;
+    text-align: center;
+    padding: 30px 15px;
+    background-color: rgba(0, 0, 0, 0.9);
+    margin-bottom: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.aboutjioCinema h2{
+    font-size: 34px;
+    line-height: 38px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    color:rgb(182, 19, 134);
+}
+.aboutjioCinema h3{
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    color: #fff;
+}
+.aboutjioCinema p{
+    font-size: 14px;
+    line-height: 16px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.aboutjioCinema button{
+    border: 0;
+    outline: none;
+    padding: 5px 10px ;
+    background-color: rgb(182, 19, 134);
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+.aboutjioCinema a {
+    border: 0;
+    outline: none;
+    padding: 8px 15px;
+    background-color: rgb(182, 19, 134);
+    margin-bottom: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 7px;
+    display: inline-block;
+}
+/* banner ends */
+.jioMovies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+.pb0 {
+    padding-bottom: 0;
+}
+.aboutjioMovies {
+    background-color:rgb(53, 30, 195);
+    padding: 20px 0px 20px 0;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    max-height: 350px;
+    width: 42%;
+    float: left;
+}
+.slider{
+    padding: 0px;
+    width: 58%;
+    float: left;
+}
+.aboutjioMovies h3{
+    font-size: 36px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 52px;
+    margin-bottom: 15px;
+    max-width: 90%;
+}
+
+
+.jioMovie img, .slick-slide img {
+    max-height: 350px;
+    min-width: 700px;
+    padding: 0px;
+}
+
+.slickPrev{
+    display: none !important;    
+}
+.slickNext{
+    display: none !important;
+}
+
+.tvShow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 35px;
+}
+.tvShow img{
+    height:110px;
+    margin-left: 30px;
+}
+
+.tvShow p{
+    color: black;
+    font-weight: 700;
+    font-size: 26px;
+}
+.btnWatch button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline:rgb(53, 30, 195);
+    border: 0;
+    background-color:rgb(53, 30, 195);
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+.btnWatch a{
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline:rgb(53, 30, 195);
+    border: 0;
+    background-color:rgb(53, 30, 195);
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 7px;
+    display: inline-block;
+}
+
+.moreTvShow{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.movieSlider{
+    background-color:rgb(53, 30, 195);
+    padding: 40px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.slide {
+    align-items: center !important;
+    display: flex !important;
+}
+
+.slide img{
+    margin-left: 100px;
+    max-width: 400px;
+    height: 300px;
+    border-radius: 16px;
+}
+
+.slide h3{
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.slide p{
+    font-size: 24px;
+    text-align: center;
+    line-height: 28px;
+}
+
+.jioCinemaPremium{
+    background-image: url('../../../../../public/assets/jiocinema/jioCinemaPremium.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+.jioCinemaPremium .cover{
+    background-color: rgba(0, 0, 0, 0.6);
+    min-height: 100vh ;
+    max-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin-top: 3rem;
+}
+.jioCinemaPremium h3{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 42px;
+    padding: 15px 0;
+}
+.jioCinemaPremium  .jioTitle{
+    margin-top: 10px;
+}
+.subscribe{
+    padding: 30px 0;
+    color: #fff;
+}
+
+.subscribe p{
+    font-size: 16px;
+}
+
+.hollywoodMovies{
+    background-color:rgb(53, 30, 195);
+    margin: 35px auto 0;
+    padding: 10px;
+    border-radius:10px;
+    width: 60%;
+}
+
+.hollywoodMovies h3{
+    font-size: 28px;
+    text-align: left;
+}
+.hollywoodMovies > ul{
+    text-align: start;
+    padding: 5px 35px;
+}
+.hollywoodMovies > ul > li{
+    font-size: 18px;
+    line-height: 24px;
+    list-style: disc;
+}
+
+.subscribe button{
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(53, 30, 195);
+    color: #fff;
+}
+.subscribe a{
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(53, 30, 195);
+    color: #fff;
+    cursor: pointer;
+    margin-top: 7px;
+    display: inline-block;
+}
+
+.moreShows {
+    padding: 20px 0;
+    color: #000;
+}
+.moreShows img{
+    max-width: 270px;
+    height: auto;
+}
+.dFlex {
+    display: flex;
+}
+.subscribeBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutShows > p{
+    color: #000;
+    padding: 7px 0;
+    margin: 0 0 20px 0;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.aboutShows{
+    border: 1px solid #000;
+    margin-top: 10px;
+    padding: 27px 10px 10px 30px;
+    border-radius: 10px;
+}
+
+.aboutShows h4{
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+.planTables {
+    width: 100%;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    margin-bottom: 24px;
+    tr {
+        th {
+            font-size: 15px;
+            border: 1px solid #000;
+            width: 50%;
+            padding: 5px;
+            text-align: left;
+        }
+        td {
+            font-size: 15px;
+            border: 1px solid #000;
+            width: 50%;
+            padding: 5px;
+        }
+    }
+}
+.planBoxdiv {
+    padding-left: 24px;
+    p {
+        padding-left: 18px;
+        margin-bottom: 24px;
+    }
+    h4 {
+        margin-bottom: 10px;
+    }
+    h5 {
+        font-size: 16px;
+        line-height: 20px;
+        padding-bottom: 20px;
+        padding-left: 18px;
+        font-weight: 700;
+    }
+    
+    .planBoxtxtpl18 {
+        padding-left: 18px;
+    }
+    .planBoxtxtitalic {
+        font-style: italic;
+    }
+}
+
+.aboutShows > ul{
+    margin-left: 15px;
+}
+.aboutShows > ul > li{
+    list-style: disc;
+    font-size: 18px;
+    padding: 5px 0;
+}
+.getbtn {
+    display: flex;
+    justify-content: center;
+
+}
+.getbtn:active{
+    border: 0;
+}
+
+.getbtn a{
+    border: 0;
+    outline: 0;
+    padding: 10px 25px ;
+    margin-top: 50px;
+    background-color: rgb(53, 30, 195);
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    display: inline-block;
+}
+.getbtn button{
+    border: 0;
+    outline: 0;
+    padding: 10px 25px ;
+    margin-top: 50px;
+    background-color: rgb(53, 30, 195);
+    color: #fff;
+    border-radius: 20px;
+}
+@media (min-width: 768px) and (max-width: 940px) {
+    .hollywoodMovies{
+        width: 60%;
+    }
+    .slide img{
+        margin-left: 15px;
+        max-width: 100%;
+    }
+    .aboutjioMovies h3{
+        font-size: 24px;
+        line-height: 28px;
+        max-width: 100%;
+    }
+    .slide h3{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .jioTitle img{
+        min-height: 40px;
+        height: auto;
+        max-width: 40px;
+    }
+    
+    .jioTitle > h1{
+        font-size: 24px;
+        line-height: 28px;
+    } 
+    .movieSlider{
+        padding: 30px;
+        margin: 0 1rem;
+    }
+    .jioMovies{
+        padding: 1rem 0;
+    }
+    .py5 {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+    .col3 {
+        width: 35%;
+    }
+    .col9 {
+        width: 65%;
+    }
+}
+@media (max-width: 767px) {
+    .jioCinema img {
+        display: none;
+    }
+    .jioCinema{
+        max-width: 96%;
+        margin: 60px auto 0;
+        position: static;
+    }
+    .py5 {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+    .aboutjioCinema {
+        border-radius: 20px;
+    }
+    .aboutjioMovies {
+        width: 100%;
+        padding: 0px 0px 20px 0;
+    }
+    .slider{
+        width: 100%;
+    }
+    .aboutjioMovies h3{
+        font-size: 20px;
+        line-height: 28px;
+        max-width: 100%;
+    }
+    .slide h3{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .slide p{
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    .tvShow p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .movieSlider{
+        padding: 30px;
+        margin: 0 1rem;
+    }
+    .jioMovies{
+        padding: 1rem 0 0;
+    }
+    .col6{
+        width: 100%;
+    }
+    .col5 {
+        width: 100%;
+    }
+    .col4 {
+        width: 100%;
+    }
+    .hollywoodMovies{
+        width: 96%;
+    }
+    .jioCinemaPremium h3{
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .dFlex {
+        display: block;
+    }
+    .col3 {
+        width: 100%;
+    }
+    .col9 {
+        width: 100%;
+    }
+    .moreShows img{
+        max-width: 100%;
+    }
+    .col7 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .moreTvShow{
+        display: block;
+    }
+    .slide img{
+        margin-left: 0px;
+        max-width: 100%;
+        height: auto;
+    }
+    .bannerjio {
+        min-height: inherit;
+        max-height: inherit;
+    }
+    .bannerjio .cover{
+        min-height: inherit;
+        max-height: inherit;
+    }
+    .jioCinemaPremium{
+        height: inherit;
+    }
+    .jioCinemaPremium .cover{
+        min-height: inherit ;
+        max-height: inherit;
+    }
+}
+

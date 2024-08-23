@@ -1,0 +1,40 @@
+
+
+
+
+
+API URL :- /admin/broadbandAttribute/list
+
+We get those Paramer
+1. bgcolorCode
+2. colorCode
+3. imageUrl
+4. name (only Get to this name we get to this and used to service page)
+5. toolTip
+
+// =========================
+We need those key and value
+
+1. serviceAvailable [] type of objects like this 
+    [
+        {"title":"Featured Deal","btnClass":"featuredDealBtn"},
+        {"title":"Online Exclusive","btnClass":"exclusiveBtn"},
+        {"title":"Cheapest","btnClass":"cheapBtn"},
+        {"title":"Special Offer","btnClass":"speOfficeBtn"}
+    ]
+
+2. "feature":["phone","wifi"]
+
+3. Title Name we get to API
+
+4. Image :- image Url and Image Link 
+
+5. Max BandWidth :- 10/mbs Max Bandwidth text
+6. Data limit :- 1000/Gb/Month Data Limit
+7. 1Month Data limit 
+8. Rating 
+9. keywod Tag list of as a array of objects
+
+10. Right Side Top Icon Iist in Array of top icon
+11. Price node  like this  "INR250/mo" "inc/GST"  
+

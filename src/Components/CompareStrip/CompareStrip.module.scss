@@ -1,0 +1,114 @@
+.wrapStrip {
+  position: fixed;
+  width: 1200px;
+  left: 50%;
+  margin-left: -600px;
+  bottom: 30px;
+  z-index: 3;
+  background: #191919;
+  border-radius: 5px;
+}
+.wrapSec {
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 10px;
+  .dealTxt {
+    font-weight: 500;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 3px;
+    color: #ffffff;
+  }
+  .dealPrtxt {
+    color: #9d9d9d;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    &:after {
+      content: '>';
+      font-size: 12px;
+      margin-left: 10px;
+      color: #ffffff;
+      font-weight: normal;
+    }
+  }
+}
+.right {
+  .comTxt {
+    color: #9d9d9d;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    position: relative;
+    cursor: pointer;
+    &::after,
+    &::before {
+      content: '';
+      position: absolute;
+      left: -12px;
+      top: 0;
+      bottom: 0;
+      border-left: solid 1px #9d9d9d;
+      transform: rotate(45deg);
+    }
+    &::before {
+      transform: rotate(-45deg);
+    }
+  }
+  .compareBtn {
+    display: inline-block;
+    vertical-align: middle;
+    background: #fcce33;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: #191919;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 786px) {
+  .wrapStrip {
+    width: auto;
+    left: 20px;
+    right: 20px;
+    margin-left: 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px 0px rgba(119, 119, 119, 0.25);
+  }
+  .left {
+    .dealPrtxt {
+      display: none;
+    }
+    .dealTxt {
+      font-weight: 300;
+      font-size: 12px;
+    }
+  }
+  .right {
+    .compareBtn {
+      font-size: 12px;
+      margin-left: 10px;
+      padding: 8px 12px;
+    }
+    .comTxt {
+      color: #fcce33;
+      font-size: 10px;
+      &::after,
+      &::before {
+        border-color: #fcce33;
+        left: -10px;
+      }
+    }
+  }
+}

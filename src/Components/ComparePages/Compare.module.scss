@@ -1,0 +1,276 @@
+.compareWrap{
+    padding:50px 0;
+}
+.topSec{
+    margin-top:10px;
+    .backSec{
+        display: inline-block;
+        vertical-align: top;
+        .backBtn{
+            display: inline-block;
+            vertical-align: top;
+            position: relative;
+            color: #0038FF;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 27px;
+            padding-left:25px;
+            &::after{
+                content: '';
+                border-top: 2px solid #0038FF;
+                border-left: 2px solid #0038FF;
+                transform: rotate(-45deg);
+                left:0;
+                top:7px;
+                width: 10px;
+                height: 10px;
+                position: absolute;
+            }
+        }
+    }
+    .clearSec{
+        float: right;
+        .clrBtn{
+            display: inline-block;
+            vertical-align: top;
+            white-space: nowrap;
+            position: relative;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 22px;
+            color: #191919;
+            background: #F8F8F8;
+            border: 0.903587px solid rgba(0, 0, 0, 0.1);
+            border-radius: 6px;
+            padding:10px 16px 10px 40px;
+            cursor: pointer;
+            &::after,&::before {
+                content: '';
+                position: absolute;
+                left: 25px;
+                top:14px;
+                bottom: 14px;
+                border-left:solid 1px #000000;
+                
+            }
+            &::after{
+                transform: rotate(45deg);
+            }
+            &::before{
+                transform: rotate(-45deg);
+            }
+        }
+    }
+}
+.compareWrapSec{
+    margin-top:50px;
+}
+.boxWraper{
+    width:385px;
+    min-height: 262px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 8px 16px rgba(119, 119, 119, 0.1);
+    border-radius: 6px;
+    padding:14px;
+    display: inline-block;
+    vertical-align: top;
+    .topTxt{
+        .headTxt{
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 19px;
+            color: grey;
+            display: inline-block;
+            vertical-align: top;
+        }
+        .btnWrap{
+            float: right;
+            .recoBtnPlan{
+                background-color: #FCCE33;
+                padding:6px 12px;
+                display: block;
+                border: 0.903587px solid rgba(0, 0, 0, 0.1);
+                border-radius: 4px;
+                color: #191919;
+                font-size: 12px;
+                line-height: 16px;
+                cursor: pointer;
+            }
+        }
+        &::after{
+            content: '';
+            display: table;
+            clear: both;
+        }
+    }
+    
+}
+.boxWraper + .boxWraper+ .boxWraper + .boxWraper{
+    margin-top:20px;
+}
+.boxWraper:nth-of-type(3n-1),
+.boxWraper:nth-of-type(3n){
+    margin-left:20px;
+}
+.infoList{
+    margin-top:10px;
+    li{
+        display: inline-block;
+        vertical-align: top;
+        .boldTxt{
+            font-size: 18px;
+            color: #191919;
+            line-height: 28px;
+            font-weight: 400;
+        }
+        .normalTxt{
+            font-size: 12px;
+            line-height: 16px;
+            font-weight: 500;
+            color:#c3c3c3;
+        }
+    }
+    li:nth-of-type(2){
+        margin-left:65px;
+        margin-right:65px;
+    }
+}
+.broadBandSec{
+    margin-top:18px;
+    background: #F8F8F8;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 8px 12px;
+    text-align: center;
+    .broadBtn{
+        display: inline-block;
+        vertical-align: top;
+        color: #191919;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 19px;
+        >span{
+            display: inline-block;
+            vertical-align: top;
+            padding-right:5px;
+        }
+
+    }
+}
+.ottWrap{
+    color:#808080;
+    text-align: left;
+    margin-top:12px;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.noplanCompare{
+    font-size: 20px;
+    color: rgba(0,0,0,0.8);
+    line-height: 38px;
+    margin: 30px 90px;
+}
+.bottomWrap{
+    .left{
+        display: inline-block;
+        vertical-align: top;
+        .rsTxt{
+            font-size: 24px;
+            line-height: 32px;
+            font-weight: 600;
+            color: #191919;
+            .inr{
+                display: inline-block;
+                vertical-align: top;
+                font-size: 20px;
+            }
+        }
+        .monthTxt{
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 22px;
+            color:#8c8c8c;
+        }
+        .gstTxt{
+            display: block;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 22px;
+            color:#8c8c8c;
+        }
+    }
+    .right{
+        float: right;
+        margin-top:20px;
+        .removePlanBtn{
+            padding: 8px 12px;
+            background: #FFE5E5;
+            border-radius: 4px;
+            color: #DE0909;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 16px;
+            display: block;
+            cursor: pointer;
+        }
+    }
+}
+.currSymbl{
+    font-size: 18px;
+    font-weight: bold;
+}
+@media only screen and (min-width: 320px) and (max-width: 786px) {
+    .noplanCompare{
+        margin:20px;
+        line-height: 26px;
+        font-size: 16px;
+    }
+    .compareWrap{
+        padding-top:100px;
+    }
+    .topSec{
+        margin-left:20px;
+        margin-right: 20px;
+        .backSec{
+            .backBtn{
+                font-size:14px;
+                padding-left:12px;
+                &::after{
+                    border-width: 1px;
+                    top: 10px;
+                    width: 6px;
+                    height: 6px;
+                }
+            }
+        }
+        .clearSec{
+            .clrBtn{
+                padding:6px 12px 6px 25px;
+                font-size:12px;
+                line-height: 20px;
+                font-weight: 400;
+                &::after, &::before{
+                    left:12px;
+                    top: 12px;
+                    bottom: 12px;
+                }
+            }
+        }
+    }
+    .compareWrapSec{
+        margin:20px;
+    }
+    .boxWraper{
+        display: block;
+        width: auto;
+    }
+    .boxWraper + .boxWraper{
+        margin-top:20px;
+    }
+    .boxWraper:nth-of-type(3n-1),
+    .boxWraper:nth-of-type(3n){
+        margin-left:0;
+    }
+}

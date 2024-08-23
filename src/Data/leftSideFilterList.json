@@ -1,0 +1,34 @@
+{
+    "data":[
+        {
+            "speedFilter":[
+                    {"id":12,"limitNo":"10","limitType":"Mbps+", "lableText":"Ultra Fiber"},
+                    {"id":13,"limitNo":"30","limitType":"Mbps+", "lableText":"Ultra Fiber"},
+                    {"id":14,"limitNo":"50","limitType":"Mbps+", "lableText":"Ultra Fiber"},
+                    {"id":15,"limitNo":"100","limitType":"Mbps+", "lableText":"Ultra Fiber"},
+                    {"id":16,"limitNo":"10","limitType":"Gbps+", "lableText":"Ultra Fiber"},
+                ],
+            "contractLength":[
+                {"id":"1", "title":1, "titleTxt":"Month", "selected":false},
+                {"id":"2", "title":12, "titleTxt":"Months", "selected":false},
+                {"id":"3", "title":18, "titleTxt":"Months", "selected":false},
+                {"id":"4", "title":24, "titleTxt":"Months", "selected":false}
+            ],
+            "providerFilter":[
+                {"title":"airtel","selected":false,"id":0},
+                {"title":"act","selected":false,"id":1},
+                {"title":"jio","selected":false,"id":2},
+                {"title":"vodafone","selected":false,"id":3}
+            ],
+            "radioCheckBoxFilter":[
+                {"id":1,"title":"Include cost of new line", "selected":false},
+                {"id":2,"title":"Show with sim only", "selected":false},
+                {"id":3,"title":"Show home phone only", "selected":false},
+                {"id":4,"title":"Include TV Deals", "selected":false}
+            ]
+        }
+    ]
+}
+
+
+

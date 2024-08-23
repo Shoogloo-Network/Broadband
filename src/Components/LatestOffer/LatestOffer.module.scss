@@ -1,0 +1,81 @@
+.wrap{
+    background: #fff;
+}
+
+
+.wraperSection{
+    padding-top: 90px;
+    h3{
+        margin-top:10px;
+    }
+}
+.boxContainer{
+    margin-bottom:100px;
+    margin-top:80px;
+}
+.btmTxtWrap{
+    margin-top:90px;
+    text-align: center;
+    color: #545252;
+    font-size: 16px;
+    .btnplan{
+        display: inline-block;
+        vertical-align: middle;
+        margin-left:20px;
+        padding: 15px 40px 15px 20px;
+            background: #0038ff;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            text-transform: uppercase;
+            outline: none;
+            border:0;
+            border-radius: 5px;
+            position: relative;
+            &::after{
+                content: '';
+                position: absolute;
+                right: 12px;
+                top: 11px;
+                background: url(/assets/images/toparrow.png) no-repeat 0 0;
+                display: inline-block;
+                vertical-align: top;
+                width: 23px;
+                height: 25px;
+                background-size: 100%;
+            }
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 786px) {
+    .wraperSection{
+        padding-top:30px;
+    }
+    .btmTxtWrap{
+        margin-top:0;
+        margin-bottom: 24px;
+        margin-left:20px;
+        margin-right:20px;
+        .btnplan{
+            display:block;
+            margin-top:20px;
+        }
+    }
+    .boxContainer{
+        margin-top:20px;
+        margin-bottom: 24px;
+        white-space: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+        box-sizing: border-box;
+        position: relative;
+        padding-left: 20px;
+        padding-right: 20px;
+        li{
+            white-space: normal;
+        }
+        
+    }
+}

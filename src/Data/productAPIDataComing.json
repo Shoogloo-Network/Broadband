@@ -1,0 +1,41 @@
+{
+    "data":[
+        {
+            "top":{
+                "serviceAvailable" :[
+                    {"title":"Featured Deal","btnClass":"featuredDealBtn"},
+                    {"title":"Online Exclusive","btnClass":"exclusiveBtn"},
+                    {"title":"Cheapest","btnClass":"cheapBtn"},
+                    {"title":"Special Offer","btnClass":"speOfficeBtn"}
+                ],
+                "feature":["phone","wifi"]
+            },
+            "bottom":{
+                "providerName":"Act Fiber 2",
+                "bandWidth":"10",
+                "bandWidthtype":"Mb/s",
+                "bandWidthLimit":"Max Bandwidth",
+                "dataLimit":"1000",
+                "dataLimitType":"Gb/Month",
+                "dataLimitText":"Data Limit",
+                "dataLimitExpire":"1",
+                "dataLimitExpireText":"Months",
+                "dataLimitExpireBtnText":"Data Limit",
+                "rating":"4.3",
+                "feature":["No Setup Costs", "Free Installation", "New Customers Only"],
+                "providerLink":"https://www.google.com",
+                "providerImage":"https://www.gogole.com/images",
+                "providerLinkText":"https://www.ggol.com"
+            },
+            "cartDetails":{
+                "type":["card","share","block"],
+                "monthlyRent":"1250",
+                "rentType":"mo",
+                "incGst": "inc.Gst"
+            }
+        }
+    ]
+}
+
+
+

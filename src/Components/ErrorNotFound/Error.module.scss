@@ -1,0 +1,50 @@
+.errorWrap {
+  padding: 50px 0;
+  color: #8c8c8c;
+  background: #191919 url(/assets/header.png) no-repeat top right;
+  background-size: contain;
+}
+.imgSection {
+  text-align: center;
+  padding: 100px 0 40px 0;
+}
+.errorTxt {
+  text-align: center;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 43px;
+  text-align: center;
+  color: rgba(256, 256, 256, 0.8);
+}
+.errorBtnSec {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  .btnError {
+    display: inline-block;
+    vertical-align: top;
+    background: #0038ff;
+    border-radius: 4px;
+    padding: 6px 34px 6px 19px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 786px) {
+  .imgSection {
+    margin: 20px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .errorTxt {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin: 20px;
+  }
+}

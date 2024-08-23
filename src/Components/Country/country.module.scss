@@ -1,0 +1,603 @@
+.planBg {
+    background-image: url("../../../public/assets/plans/Banner01.jpg");
+    padding: 48px;
+    position: relative;
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 60px;
+}
+.planHead {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffc600;
+    padding-top: 48px;
+    text-align: center;
+}
+.cityPara {
+    color: #fff;
+    line-height: 18px;
+    font-size: 14px;
+    padding-top: 7px;
+    text-align: center;
+}
+.Premium {
+    display: inline-block;
+    position: relative;
+    top: 0;
+}
+.Premium img {
+    max-width: 190px;
+    height: auto;
+}
+.clear {
+    clear: both;
+}
+.plansBox {
+    width: 100%;
+    padding-top: 36px;
+}
+.choosePlans {
+    width: 40%;
+    float: left;
+    color: #fff;
+}
+.choosePlans > div {
+    font-weight: 700;
+    padding: 0 0 10px 0;
+}
+.choosePlans > ul {
+    margin-left: 22px;
+}
+.choosePlans > ul > li {
+    list-style: disc;
+    padding-bottom: 7px;
+    font-weight: 200;
+    font-size: 14px;
+}
+.popularPlan {
+    width: 60%;
+    float: left;
+}
+.popularPlan > div {
+    text-align: center;
+}
+.popularPlan > div img {
+    max-width: 350px;
+}
+.popularPlanlist {
+    background-color: #fff;
+    max-width: 585px;
+    margin: 0 auto 15px;
+    padding: 12px;
+    border-radius: 15px;
+    font-size: 18px;
+}
+.btnBox {
+    margin-top: 45px;
+    display: flex;
+}
+.btnBox > a {
+    background-image: linear-gradient(to right top, #7b008b, #70007f, #660073, #5b0067, #51005b);
+    display: flex;
+    padding: 12px 15px;
+    border: 1px solid #fff;
+    border-radius: 23px;
+    margin-right: 24px;
+    align-items: center;
+    cursor: pointer;
+}
+.btnBox > a > img {
+    margin-right: 7px;
+    width: 24px;
+    height: auto;
+}
+.wrapContainer {
+    width: 1200px;
+    margin: 0 auto;
+}
+.broadband {
+    padding: 32px 0;
+}
+.textCenter {
+    text-align: center;
+}
+.date {
+    color: #c1c0c0;
+    font-size: 12px;
+    padding: 15px;
+}
+.text {
+    color: #31b7de;
+    padding: 0 15px;
+    line-height: 20px;
+}
+.txtreadMore {
+    color: #141e26;
+    padding: 15px 15px 0;
+    line-height: 18px;
+}
+.toggleButton {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 105px;
+    padding: 12px 15px;
+    font-weight: 700;
+    text-decoration: underline;
+    cursor: pointer;
+    height: 45px;
+}
+.showContent {
+    display: block; // or any other style to show the content
+  }
+  
+  .hideContent {
+    display: none; // or any other style to hide the content
+  }
+.head {
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 12px;
+}
+@media (max-width: 600px) {
+    .head{
+      margin-top: 55px;
+    }
+  }
+.subhead {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0 15px;
+}
+.broadband p {
+    color: #393939;
+    margin-bottom: 15px;
+    font-size: 16px;
+    letter-spacing: .5px;
+    font-weight: 200;
+    line-height: 20px;
+}
+.Mancheering {
+    background-color: #e9e9e9;
+}
+.MancheeringCont {
+    width: 25%;
+    float: left;
+    padding: 107px 20px;
+    text-align: center;
+}
+.MancheeringCont > img {
+    max-width: 100%;
+    width: 42px;
+    height: auto;
+}
+.MancheeringCont > div {
+    font-weight: 700;
+    font-size: 15px;
+    padding-bottom: 7px;
+    padding-top: 5px;
+}
+.MancheeringCont > p {
+    font-size: 12px;
+    letter-spacing: .5px;
+    line-height: 16px;
+}
+.col7 {
+    width: 70%;
+    float: left;
+    padding: 0 0 0 15px;
+}
+.mb12 {
+    margin-bottom: 12px;
+}
+.mb24 {
+    margin-bottom: 24px;
+}
+.mt24 {
+    margin-top: 24px;
+}
+.col5 {
+    width: 30%;
+    float: left;
+    padding: 0 15px 0 0;
+}
+.col5 > a {
+    display: inline-block;
+    padding-bottom: 7px;
+    text-decoration: underline;
+}
+.col3 {
+    width: 30%;
+    float: left;
+    padding: 0 15px;
+}
+.col3 > div > img {
+    width: 90px;
+    height: auto;
+    margin-top: 7px;
+}
+.headdeals {
+    max-width: 210px;
+    line-height: 28px;
+    float: left;
+}
+.findPlace > div > div {
+    left: 5px;
+}
+.findPlace > div > div a {
+    text-align: left;
+    padding-left: 10px !important;
+}
+.pinCode {
+    margin-bottom: 16px;
+}
+.pinCode > form {
+    height: 35px;
+}
+.pinCode > form > div {
+    width: auto;
+    min-width: 225px;
+    float: left;
+    margin-right: 16px;
+}
+.pinCode > form > div > div input {
+    outline: none;
+    border: none;
+    padding: 10px 7px;
+}
+.pinCode > form > a {
+    background-color: #000;
+    color: #fff;
+    padding: 7px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    position: relative;
+    top: 8px;
+}
+#city-typeahead2 {
+    top: -10px;
+}
+ 
+.planDeals {
+    background-color: #000;
+    color: #fff;
+    padding: 32px 48px;
+    border-radius: 20px;
+}
+.headWhite {
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 24px;
+    line-height: 26px;
+}
+.headRed {
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 24px;
+    line-height: 36px;
+    color: #ed1b24;
+    text-align: center;
+    text-transform: uppercase;
+}
+.headBlack {
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 24px;
+    line-height: 36px;
+    color: #000;
+    text-align: center;
+}
+.btnDeals {
+    background-image: url("../../../public/assets/plans/btnBg.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 18px 22px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.BroadbandPlan {
+    position: relative;
+    display: none;
+}
+.BroadbandPlan > a {
+    position: absolute;
+    left: 0;
+}
+.blogBox {
+    display: flex;
+    grid-gap: 16px;
+}
+
+.blogBoxlist {
+    width: 25%;
+    display: grid;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    background-color: #fff;
+}
+.blogBoxlist:hover {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+}
+.blogBoxlist p {
+    padding: 0 15px;
+}
+.blogBoxlist > div {
+    border-radius: 12px;
+}
+.blogBoxlist > div > img {
+    border-radius: 12px;
+    max-width: 100%;
+    height: auto;
+}
+.findPlace {
+    margin: 36px auto 64px;
+    text-align: center;
+}
+.findPlace input {
+    background-color: #fff;
+    width: 335px;
+    padding: 12px 15px;
+    border: 1px solid #fff;
+    border-radius: 22px;
+    outline: none;
+    height: 42px;
+}
+.chooseInput div, .findPlace div {
+    width: 345px;
+    display: inline-block;
+    margin-right: 15px;
+}
+.findPlace > a {
+    background-color: #f8c928;
+    color: #000;
+    padding: 13px 15px;
+    height: 42px;
+    display: inline-block;
+    border-radius: 12px;
+}
+.findLocation {
+    margin: 16px auto 48px;
+    display: flex;
+    align-items: center;
+    max-width: 500px;
+    justify-content: flex-end;
+}
+.locationIcon {
+    padding-left: 7px;
+}
+.locationTxt {
+    color: #fff;
+}
+.PopularCitiesBox {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    top: 56px;
+}
+.PopularCities {
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    max-width: 990px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.PopularCitiesinner {
+    padding: 15px 6px;
+    display: flex;
+    max-width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex: 0 0 auto;
+}
+.PopularCitieshead {
+    font-size: 16px;
+    width: fit-content;
+    text-transform: none;
+    color: rgb(51, 51, 51);
+    cursor: default;
+}
+.PopularCitieslist {
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 8px 8px 0px;
+}
+.PopularCitieslist > li {
+    display: flex;
+    cursor: pointer;
+    margin: 8px 12px;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+}
+.PopularCitieslist > li > div {
+    display: flex;
+    cursor: pointer;
+    margin: 0px;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    position: relative;
+}
+.PopularCitieslist > li > div > div {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-bottom: 5px;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.PopularCitieslist > li > div > div > img {
+    height: 100%;
+    max-width: 100%;
+}
+.PopularCitieslist > li > div > span {
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    max-width: 110px;
+    word-break: break-word;
+    text-align: center;
+}
+.chooseUs {
+    display: flex;
+}
+.chooseUsInner {
+    display: flex;
+    grid-gap: 16px
+}
+.chooseUsCol {
+    width: 33.333%;
+    text-align: center;
+    padding: 0 15px 15px;
+}
+.chooseUsCol > a {
+    display: inline-block;
+    color: #fe582b;
+    font-weight: 700;
+}
+.pb0 {
+    padding-bottom: 0;
+}
+@media (max-width: 800px) {
+    .wrapContainer {
+        max-width: 96%;
+    }
+    .wrap {
+        max-width: 96%;
+    }
+    .planHead {
+        font-size: 32px;
+    }
+    .planBg {
+        padding: 20px;
+        margin-bottom: 160px;
+    }
+    .findPlace > input {
+        width: 192px;
+    }
+    .findPlace {
+        margin: 24px auto 104px;
+    }
+    .findLocation {
+        margin: 16px auto 112px;
+        justify-content: center;
+    }
+    .chooseUs {
+        display: inherit;
+    }
+    .chooseUsInner {
+        display: inherit;
+    }
+    .chooseUsCol {
+        width: 100%;
+    }
+    .col3, .col5 {
+        width: 48%;
+    }
+    .col7 {
+        width: 52%;
+    }
+    
+    .blogBox {
+        display: inherit;
+    }
+    .blogBoxlist {
+        width: 100%;
+        display: inherit;
+        margin-bottom: 15px;
+    }
+    .blogBoxlist > div > img {
+        width: 100%;
+    }
+    .BroadbandPlan {
+        display: none;
+    }
+}
+@media (max-width: 600px) {
+    
+    .wrapContainer {
+        max-width: 92%;
+    }
+    .wrap {
+        max-width: 92%;
+    }
+    .planHead {
+        font-size: 24px;
+    }
+    .PopularCitieslist > li  {
+        margin: 8px 6px;
+    }
+    .PopularCitieslist > li > div > div {
+        width: 48px;
+        height: 48px;
+    }
+    .PopularCitieslist > li > div > div > a > img {
+        width: 100%;
+    }
+    .planBg {
+        padding: 20px 20px 65px;
+        margin-bottom: 160px;
+    }
+    .PopularCitiesBox {
+        top: 156px;
+    }
+    .findPlace > input {
+        width: 192px;
+    }
+    .findPlace {
+        margin: 24px auto 0;
+    }
+    .findLocation {
+        margin: 16px auto 112px;
+    }
+    .chooseUs {
+        display: inherit;
+    }
+    .chooseUsInner {
+        display: inherit;
+    }
+    .chooseUsCol {
+        width: 100%;
+    }
+    .col7, .col3, .col5 {
+        width: 100%;
+        padding: 0 0 15px 0;
+    }
+    .blogBox {
+        display: inherit;
+    }
+    .blogBoxlist {
+        width: 100%;
+        display: inherit;
+        margin-bottom: 15px;
+    }
+    .chooseInput div, .findPlace div {
+        margin-right: 0;
+        margin-bottom: 7px;
+    }
+    
+}

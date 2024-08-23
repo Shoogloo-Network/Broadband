@@ -1,0 +1,25 @@
+.rating{
+    font-size: 20px;
+    font-weight: normal;
+    .ratingTxt{
+        color: #191919;
+        font-weight: 500;
+        font-size: 16px;
+        margin-right:10px;
+    }
+
+    span + span{
+        margin-left:5px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .star{
+        color:#FCCE33;
+    }
+    .starHalf{
+        color: #FCCE33;
+    }
+    .starEmpty{
+        color:gray;
+    }   
+}

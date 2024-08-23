@@ -1,0 +1,50 @@
+{
+  "name": "broadband-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@magicul/next-google-tag-manager": "^2.0.0",
+    "@reduxjs/toolkit": "^1.9.7",
+    "axios": "^1.6.2",
+    "lodash.debounce": "^4.0.8",
+    "next": "14.0.3",
+    "nprogress": "^0.2.0",
+    "react": "^18",
+    "react-bootstrap-typeahead": "^6.3.2",
+    "react-dom": "^18",
+    "react-icons": "^4.12.0",
+    "react-query": "^3.39.3",
+    "react-redux": "^8.1.3",
+    "react-select": "^5.8.0",
+    "react-share": "^5.0.2",
+    "react-slick": "^0.29.0",
+    "react-toastify": "^9.1.3",
+    "react-tooltip": "^5.23.0",
+    "redux": "^4.2.1",
+    "redux-thunk": "^2.4.2",
+    "sass": "^1.69.5",
+    "sharp": "^0.33.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@builder.io/partytown": "^0.8.2",
+    "@types/lodash.debounce": "^4.0.9",
+    "@types/node": "^20",
+    "@types/nprogress": "^0.2.3",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-slick": "^0.23.12",
+    "eslint": "^8.54.0",
+    "eslint-plugin-next": "^0.0.0",
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,273 @@
+.wrapStrip {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 3;
+  background: #191919;
+  right: 0;
+  .stripPageWrap {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+  }
+}
+.wrapSec {
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  display: flex;
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 10px;
+}
+.dealTxt {
+  display: flex;
+  flex-flow: column;
+  .topText {
+    .priceAmount {
+      color: #fcce33;
+      font-size: 23px;
+      font-weight: bold;
+      .currSymbl {
+        color: #fcce33;
+        font-size: 22px;
+        vertical-align: top;
+      }
+    }
+    span {
+      color: #8c8c8c;
+      font-size: 16px;
+    }
+  }
+  .bottomText {
+    color: #8c8c8c;
+    font-size: 16px;
+  }
+}
+.priceDropDown {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  margin-left: 20px;
+  border: 1px solid #8c8c8c;
+  position: relative;
+  cursor: pointer;
+  &:hover {
+    .priceWrapSec {
+      display: block;
+    }
+  }
+  &::after,
+  &::before {
+    content: '';
+    position: absolute;
+    top: 14px;
+    border-left: 2px solid #ffffff;
+    bottom: 14px;
+  }
+  &::after {
+    left: 15px;
+    transform: rotate(45deg);
+  }
+  &::before {
+    right: 15px;
+    transform: rotate(-45deg);
+  }
+}
+.priceWrapSec {
+  display: none;
+  position: absolute;
+  left: 10px;
+  bottom: 35px;
+  background: #191919;
+  padding: 12px;
+  border: 1px solid #8c8c8c;
+  box-shadow: 0px 8px 20px rgba(119, 119, 119, 0.25);
+  border-radius: 6px;
+  width: 200px;
+  z-index: 2;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li {
+      display: block;
+      border: 0;
+      width: auto;
+      height: auto;
+      white-space: nowrap;
+      padding: 0;
+      margin: 0;
+      h5 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+      }
+      .priceTxt,
+      .priceAmount {
+        display: inline-block;
+        vertical-align: top;
+        color: #a1a1a1;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: -0.02em;
+      }
+      .priceTxt {
+        width: 70%;
+      }
+      .priceAmount {
+        position: relative;
+        .currSymbl {
+          display: inline-block;
+          vertical-align: top;
+          padding-top: 2px;
+        }
+      }
+    }
+    .totalAmount {
+      padding-top: 10px;
+      margin-top: 10px;
+      border-top: solid 1px #a1a1a1;
+      .priceTxt,
+      .priceAmount {
+        color: #ffffff;
+        font-weight: 400;
+      }
+    }
+  }
+}
+.right {
+  display: flex;
+  .comTxt {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid #8c8c8c;
+    padding: 0 20px;
+    border-radius: 5px;
+  }
+  .compareBtn {
+    display: flex;
+    align-items: center;
+    background: #fcce33;
+    border-radius: 5px;
+    padding: 0 40px 0 20px;
+    color: #191919;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 20px;
+    line-height: 48px;
+    position: relative;
+    &::after {
+      content: '';
+      position: absolute;
+      display: inline-block;
+      vertical-align: top;
+      right: 9px;
+      top: 9px;
+      background: url('/assets/arrow-black.png') no-repeat 0 0;
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 786px) {
+  .wrapStrip {
+    width: auto;
+    left: 0;
+    right: 0;
+    margin-left: 0;
+    background: #ffffff;
+    box-shadow: 0px 4px 12px 0px rgba(119, 119, 119, 0.25);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    .stripPageWrap {
+      width: auto;
+      .wrapSec {
+        display: block;
+        .left {
+          display: flex;
+          justify-content: space-between;
+          .topText {
+            .currSymbl,
+            .priceAmount {
+              color: #0038ff;
+            }
+            span {
+              color: #242424;
+            }
+          }
+          .bottomText {
+            color: #242424;
+          }
+        }
+      }
+    }
+  }
+  .priceDropDown {
+    border-color: rgba(0, 0, 0, 0.5);
+    &::after,
+    &::before {
+      border-color: rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  .priceWrapSec {
+    left: auto;
+    right: 0;
+    background-color: #fdfdfd;
+    ul {
+      li {
+        color: #161616;
+        h5 {
+          font-style: bold;
+        }
+        .priceTxt,
+        .priceAmount {
+          color: #737373;
+        }
+      }
+      .totalAmount {
+        .priceTxt,
+        .priceAmount {
+          color: #161616;
+        }
+      }
+    }
+  }
+  .right {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    .compareBtn {
+      background: #0038ff;
+      padding: 0 40px 0 20px;
+      color: #ffffff;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      &::after {
+        background: url('/assets/arrow-whitecta.png') no-repeat 0 0;
+      }
+    }
+    .comTxt {
+      display: flex;
+      align-items: center;
+      color: #161616;
+      padding: 10px 5px;
+      font-size: 14px;
+      background: #f8f8f8;
+      line-height: 20px;
+      border: none;
+    }
+  }
+}

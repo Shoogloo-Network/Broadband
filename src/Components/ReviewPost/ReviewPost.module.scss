@@ -1,0 +1,53 @@
+.reviewSecForm{
+    margin-top:32px;
+    background: #F8F8F8;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding:14px 10px 10px 19px;
+    position: relative;
+}
+.revFormGroup{
+    position: relative;
+    textarea{
+        color: #191919;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 27px;
+        padding: 10px;
+        width: 80%;
+        resize: none;
+        border: none;
+        outline: none;
+        background: transparent;
+    }
+    .btnTxt{
+        color: #191919;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        padding-left: 10px;
+    }
+}
+.postBtn{
+    position: absolute;
+    right: 15px;
+    bottom: 8px;
+    .postBtn{
+        border: 1.16453px solid rgba(0, 0, 0, 0.1);
+        border-radius: 4px;
+        background: #F8F8F8;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16.3035px;
+        line-height: 22px;
+        color: #191919;
+        padding:6px 20px 6px 16px;
+        cursor: pointer;
+        position: relative;
+    }
+}
+.feedbackSec{
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: normal;
+}

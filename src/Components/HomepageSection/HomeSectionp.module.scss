@@ -1,0 +1,25 @@
+.homeSectionp {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      padding: 20px;
+      margin-top: 44px;
+  }
+  .homeSectionp ul  {
+    padding-left: 24px;
+  }
+  .homeSectionp ul li {
+    list-style: disc !important;
+    color: #605f5f;
+    letter-spacing: .5px;
+    line-height: 16px;
+    margin-bottom: 7px;
+  }
+  .homeSectionp p {
+    color: #605f5f;
+    letter-spacing: .5px;
+    line-height: 20px;
+    margin-bottom: 7px;
+  }
+  .homeSectionp a {
+    color: #0000ff;
+  }
